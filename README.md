@@ -33,6 +33,7 @@ W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
 ├── dalton-lesfiche.html    de Dalton-lesfiche in de kleurcode: openen, Kopieer de fiche, plakken
 ├── lesdoelen.json          de doelen voor je jaaroverzicht
 ├── classroom.json          de opdracht voor de Classroom-koppeling
+├── ai-bron.txt             de volledige tekst van de lespagina: de bron van de AI-hulp
 └── README.md               deze handleiding
 ```
 
@@ -50,8 +51,8 @@ W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
   alles onder elkaar.
 - De **titel van de pagina** begint met *Lespagina · Les 3*: zo heet de link in de opdracht en het tabblad
   in Chrome, naast het tabblad *Stagemail*.
-- **AI-hulp**: verborgen. Zet `data-ai-hulp="aan"` op `<body>` als er een Gemini Notebook bij de opdracht
-  hangt (`_afspraken/ai-hulp.md`).
+- **AI-hulp**: aan (`data-ai-hulp="aan"` op `<body>`), want de Gemini Notebook hangt aan de opdracht
+  (`_afspraken/ai-hulp.md`). Zonder notebook zet je hem op `"uit"`.
 - `?leraar` achter het adres toont de screenshot-plaatsen (deze les heeft er geen: de beelden zijn
   tekeningen).
 
@@ -98,11 +99,20 @@ Klik op Inleveren, ten laatste vrijdag 16 oktober 2026 om 20.00 uur.
    (alleen vóór je de opdracht post).
 3. Voeg de lespagina toe met **Link**.
 
-### Optioneel — de AI-hulp (± 3 minuten)
+### De AI-hulp ✅ *klaargezet op 09-10-2026*
 
-In het concept: **Bijvoegen** › **Gemini Notebook** › een nieuwe notebook, met de lespagina als bron en de
-vaste instructie bij **Gesprek instellen** (`_afspraken/ai-hulp.md`). Zeg het daarna aan de AI: dan komt de
-AI-hulp op de lespagina (`data-ai-hulp="aan"`). Test op maandag met één leerling of de notebook opent.
+De Gemini Notebook **AI-hulp · Les 3 · Professionele e-mail aan een stageplaats** hangt aan het concept in
+3MWb (teruggelezen via de API: nog `DRAFT`, met de bijlage `notebook`). Bron: `ai-bron.txt` (de volledige
+tekst van de lespagina, gemaakt met `_tools/maak_ai_bron.py`). Bij **Chat instellen**: *Aangepast* met de
+vaste instructie uit `_afspraken/ai-hulp.md`, reactielengte *Korter*. *Bovenaan de lesgroep plaatsen* staat
+uit. Op de lespagina staat de AI-hulp aan (`data-ai-hulp="aan"`): in *Vast?* en op de theoriekaart.
+
+**Getest** in de *Testklas AI-hulp (Claude)* met het testaccount demoleerling3: de leerling opent de
+notebook vanuit de opdracht; jouw chatinstelling geldt ook voor de leerling; de antwoorden zijn kort, uit de
+les en met bronnummers; de AI schrijft de e-mail niet ("Ik schrijf de e-mail niet in jouw plaats …"), vraagt
+geen namen, en zegt bij een vraag buiten de les: "Dat staat niet in deze les." Jij hoeft niets meer te doen:
+wijs de opdracht toe zoals altijd. Zie je bij een echte leerling een foutmelding, zeg het dan: dan zet ik de
+AI-hulp weer uit op de lespagina.
 
 ### De demo klaarzetten (1 minuut)
 
@@ -183,4 +193,5 @@ ondersteunend · `BV2_04.04` voorbereidend. De pre-push hook schrijft ze in `Lee
 - Lukt het wisselen tussen de twee tabbladen na de demo op dia 5?
 - Typen de leerlingen netjes in de vakken van het venster, of schuiven de tabellen in Google Documenten?
 - Klopt de tijd van stap 5 (10 minuten) voor een eigen e-mail?
-- Als de AI-hulp aanstaat: kunnen de leerlingen de notebook openen, en zijn de antwoorden kort en uit de les?
+- Kunnen ook de echte leerlingen van 3MWb de AI-hulp openen (getest met demoleerling3)? Helpt hij, of vragen
+  ze hem wat op de pagina staat zonder te lezen? Klikken ze op de bronnummers?

@@ -320,11 +320,16 @@ footer.site { max-width: 1440px; margin: 0 auto; padding: 0 1.2rem 2rem; font-si
 .mock { height: 136px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: #fff; overflow: hidden; position: relative; font-family: Arial, Helvetica, sans-serif; box-shadow: 0 2px 8px rgba(29, 35, 64, .07); }
 .mock .ic { width: .95rem; height: .95rem; }
 /* de opdracht in Classroom */
-.mock-opdracht { padding: .65rem .75rem .65rem 1.45rem; display: flex; flex-direction: column; gap: .38rem; }
-.mo-titel { font-size: .78rem; font-weight: 700; color: #137333; line-height: 1.25; border-bottom: 2px solid #137333; padding-bottom: .3rem; }
-.mo-chip { display: flex; align-items: center; gap: .35rem; width: 72%; font-size: .72rem; color: #3C4043; border: 1px solid #DADCE0; border-radius: 6px; padding: .12rem .4rem; }
+/* de opdracht in Classroom, zoals de leerling ze ziet (demoleerling, 09-10-2026): de bijlagen in het
+   midden, het eigen werkdocument en Inleveren rechts onder "Jouw werk" */
+.mock-opdracht { padding: .6rem .6rem .6rem 1.45rem; display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; }
+.mo-midden { display: flex; flex-direction: column; gap: .38rem; min-width: 0; }
+.mo-werk { display: flex; flex-direction: column; gap: .32rem; min-width: 0; border: 1px solid #DADCE0; border-radius: 8px; padding: .35rem .4rem; align-self: start; }
+.mo-werk-kop { font-size: .66rem; font-weight: 700; color: #3C4043; }
+.mo-chip { display: flex; align-items: center; gap: .35rem; min-width: 0; font-size: .72rem; color: #3C4043; border: 1px solid #DADCE0; border-radius: 6px; padding: .12rem .4rem; }
+.mo-knop { font-size: .7rem; font-weight: 700; color: #fff; background: #137333; border-radius: 5px; padding: .12rem .4rem; text-align: center; }
+.mo-titel { font-size: .78rem; font-weight: 700; color: #137333; line-height: 1.25; border-bottom: 2px solid #137333; padding-bottom: .3rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .mo-chip .ic { color: var(--navy); }
-.mo-knop { position: absolute; right: .6rem; bottom: .6rem; font-size: .72rem; font-weight: 700; color: #fff; background: #137333; border-radius: 5px; padding: .15rem .55rem; }
 /* deze lespagina */
 .mock-lespagina { background: var(--bg); }
 .ml-balk { height: 16px; background: #fff; border-bottom: 1px solid var(--line); }
@@ -352,8 +357,8 @@ footer.site { max-width: 1440px; margin: 0 auto; padding: 0 1.2rem 2rem; font-si
 /* vier beelden (een les met een werkplek naast het werkdocument, zoals Drive) */
 .nodig.vier { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.3rem; }
 .nodig.vier .nodig-item + .nodig-item::after { left: -1.15rem; }
-.nodig.vier .mo-titel { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-.nodig.vier .mo-chip { width: 84%; }
+.nodig.vier .mock-opdracht { grid-template-columns: minmax(0, 1fr); gap: .35rem; }  /* smal: Jouw werk onder de bijlagen */
+.nodig.vier .mo-titel { display: none; }
 .mo-chip span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 /* een map in Drive */
 .mock-drive { background: #fff; }
