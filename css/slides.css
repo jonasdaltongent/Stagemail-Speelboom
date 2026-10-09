@@ -1,0 +1,129 @@
+/* Klassikale dia's · De Speelboom · Les 3 Professionele e-mail aan een stageplaats — beamer, 16:9 */
+@font-face { font-family: "Atkinson"; src: url("../assets/fonts/atkinson-regular.woff2") format("woff2"); font-weight: 400; }
+@font-face { font-family: "Atkinson"; src: url("../assets/fonts/atkinson-bold.woff2") format("woff2"); font-weight: 700; }
+/* Atkinson tekent de nul met een schuine streep (lijkt op Ø). Cijfers daarom uit een systeemlettertype. */
+@font-face { font-family: "Atkinson"; src: local("Segoe UI"), local("SegoeUI"), local("Arial"), local("Helvetica"), local("DejaVu Sans"); font-weight: 400; unicode-range: U+0030-0039; }
+@font-face { font-family: "Atkinson"; src: local("Segoe UI Bold"), local("SegoeUI-Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Helvetica Bold"), local("DejaVu Sans Bold"); font-weight: 700; unicode-range: U+0030-0039; }
+@font-face { font-family: "Atkinson"; src: local("Segoe UI"), local("Arial"), local("Helvetica"), local("Roboto"); font-weight: 400; unicode-range: U+0030-0039; }
+@font-face { font-family: "Atkinson"; src: local("Segoe UI Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Roboto Bold"); font-weight: 700; unicode-range: U+0030-0039; }
+@font-face { font-family: "Montserrat"; src: url("../assets/fonts/montserrat-heavy.woff2") format("woff2"); font-weight: 700 900; }
+
+:root { --navy:#3C51A0; --navy-deep:#2A3973; --peri:#A7B1DE; --peri-soft:#E4E8F6; --blush:#FCD6CF; --blush-soft:#FEF0EC; --sand:#EDECE4; --ink:#1D2340; --muted:#4D5573; --ok:#1F7A55; --ok-soft:#E3F3EB; --warn:#A0372A; }
+* { box-sizing: border-box; }
+html, body { margin: 0; height: 100%; background: #1D2340; font-family: "Atkinson", Verdana, sans-serif; color: var(--ink); overflow: hidden; }
+
+/* place-content: center houdt het podium ook in het midden als het scherm kleiner is dan 1280x720;
+   zonder viel dan rechts of onderaan een strook van de dia weg */
+.deck { position: absolute; inset: 0; display: grid; place-items: center; place-content: center; }
+.stage { width: 1280px; height: 720px; position: relative; transform-origin: center center; }
+.slide { position: absolute; inset: 0; background: var(--sand); display: none; padding: 56px 72px 64px; flex-direction: column; }
+.slide.active { display: flex; }
+.slide h1, .slide h2 { font-family: "Montserrat", Arial, sans-serif; color: var(--navy-deep); margin: 0 0 24px; line-height: 1.1; }
+.slide h1 { font-size: 64px; font-weight: 900; }
+.slide h2 { font-size: 44px; font-weight: 800; }
+.slide p, .slide li { font-size: 30px; line-height: 1.4; }
+.slide ul, .slide ol { margin: 0; padding-left: 1.2em; }
+.slide li { margin-bottom: 10px; }
+.kicker { font-weight: 700; color: var(--navy); font-size: 24px !important; margin: 0 0 8px; }
+.foot { position: absolute; left: 72px; right: 72px; bottom: 22px; display: flex; justify-content: space-between; align-items: center; font-size: 16px; color: var(--muted); }
+.foot img { height: 30px; }
+.slide.title { background: var(--navy); color: #fff; justify-content: center; }
+.slide.title h1 { color: #fff; font-size: 76px; }
+.slide.title p { color: var(--peri-soft); }
+.slide.title .logos { display: flex; gap: 28px; align-items: center; margin-top: 40px; }
+.slide.title .logos img { background: #fff; border-radius: 14px; padding: 10px 16px; height: 86px; }
+.slide.title .sail { position: absolute; right: 90px; bottom: 90px; width: 260px; }
+
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 36px; flex: 1; min-height: 0; }
+.panel { background: #fff; border-radius: 16px; padding: 24px 28px; border: 2px solid #D6D5CB; }
+.panel.navy { background: var(--navy); color: #fff; border-color: var(--navy); }
+.tag { display: inline-block; font-family: "Montserrat", Arial, sans-serif; font-weight: 900; font-size: 28px; background: var(--navy); color: #fff; border-radius: 10px; padding: 2px 14px; margin-bottom: 12px; }
+
+/* nagemaakte documenten */
+.paper { background: #fff; border: 1px solid #C9C8BE; box-shadow: 0 8px 24px rgba(29,35,64,.15); padding: 26px 30px; font-family: Arial, sans-serif; font-size: 20px; line-height: 1.5; height: 100%; overflow: hidden; }
+.paper p { font-size: 20px; margin: 0; line-height: 1.5; }
+.paper .gap { height: 14px; }
+.pil { color: var(--navy); font-weight: 700; }
+.dot { color: var(--navy); font-weight: 700; }
+.bad-label, .good-label { font-weight: 700; font-size: 22px; margin-bottom: 8px; }
+.bad-label { color: var(--warn); }
+.good-label { color: var(--ok); }
+
+/* vragen met onthulling */
+.opts { display: grid; gap: 14px; margin-top: 10px; }
+.opt { display: flex; align-items: center; gap: 18px; background: #fff; border: 3px solid #D6D5CB; border-radius: 14px; padding: 12px 20px; font-size: 30px; }
+.opt .n { font-family: "Montserrat", Arial, sans-serif; font-weight: 900; width: 54px; height: 54px; border-radius: 50%; display: grid; place-items: center; background: var(--peri-soft); color: var(--navy); flex-shrink: 0; }
+.slide.revealed .opt.right { border-color: var(--ok); background: var(--ok-soft); }
+.slide.revealed .opt.right .n { background: var(--ok); color: #fff; }
+.answer { display: none; margin-top: 18px; font-size: 26px; font-weight: 700; color: var(--ok); }
+.slide.revealed .answer { display: block; }
+.hand { font-size: 24px !important; color: var(--muted); }
+
+.reveal-item { visibility: hidden; }
+.reveal-item.shown { visibility: visible; }
+
+.rules { counter-reset: r; list-style: none; padding: 0 !important; }
+.rules li { counter-increment: r; position: relative; padding-left: 78px; min-height: 60px; margin-bottom: 18px; }
+.rules li::before { content: counter(r); position: absolute; left: 0; top: -2px; width: 56px; height: 56px; border-radius: 50%; background: var(--navy); color: #fff; font-family: "Montserrat", Arial, sans-serif; font-weight: 900; font-size: 28px; display: grid; place-items: center; }
+
+.style-table { width: 100%; border-collapse: collapse; background: #fff; border: 4px solid var(--navy); }
+.style-table th, .style-table td { text-align: left; font-size: 27px; padding: 10px 18px; border-bottom: 2px solid var(--peri-soft); }
+.style-table th { background: var(--peri-soft); color: var(--navy-deep); width: 36%; }
+
+.toolbar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; background: #EEF1FA; border: 2px solid #C7CDE6; border-radius: 40px; padding: 12px 18px; font-family: Arial, sans-serif; font-size: 26px; }
+.toolbar span { background: #fff; border: 2px solid #D5D9EA; border-radius: 8px; padding: 4px 12px; }
+
+.help-row { display: flex; gap: 16px; margin-top: 18px; }
+.help-row div { flex: 1; background: #fff; border-radius: 14px; padding: 14px 16px; font-size: 24px; font-weight: 700; text-align: center; border: 2px solid var(--peri); }
+.help-row b { display: block; font-family: "Montserrat", Arial, sans-serif; font-size: 34px; color: var(--navy); }
+
+/* ---------- Vaste startdia "Zo start je" (dia 1, sinds 09-10-2026, _afspraken/presentatie.md) ----------
+   Zeven tegels met een tekening (HTML en CSS) en een achtste "Klaar?". Alleen de lestitel, de
+   lesgroep en de titel van de opdracht veranderen per les. Geen wachtwoord op de dia: ze is openbaar. */
+.slide.start { padding: 40px 64px 52px; }
+.start-kop { display: flex; align-items: flex-end; justify-content: space-between; gap: 28px; margin-bottom: 26px; }
+.start-kop .kicker { margin: 0 0 6px; }
+.start-kop h1 { font-size: 40px; margin: 0; }
+.start-zo { font-family: "Montserrat", Arial, sans-serif; font-weight: 900; font-size: 30px; color: #fff; background: var(--navy); border-radius: 12px; padding: 6px 20px; white-space: nowrap; }
+.startroute { list-style: none; counter-reset: sr; margin: 0; padding: 0 !important; display: grid; grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr; gap: 24px 22px; flex: 1; min-height: 0; }
+.startroute li { counter-increment: sr; position: relative; margin: 0; background: #fff; border: 2px solid #D6D5CB; border-radius: 16px; padding: 14px 16px 12px; display: flex; flex-direction: column; gap: 10px; font-size: 22px; line-height: 1.25; font-weight: 700; }
+.startroute li::before { content: counter(sr); position: absolute; top: -16px; left: -14px; width: 44px; height: 44px; border-radius: 50%; background: var(--navy); color: #fff; font-family: "Montserrat", Arial, sans-serif; font-weight: 900; font-size: 24px; display: grid; place-items: center; box-shadow: 0 0 0 4px var(--sand); }
+.startroute li.klaar { background: var(--navy); border-color: var(--navy); color: #fff; justify-content: center; font-size: 26px; }
+.startroute li.klaar::before { content: "✓"; background: var(--ok); }
+.sr-tekst { display: block; }
+.startroute .knop { font-family: Arial, sans-serif; background: var(--peri-soft); color: var(--navy-deep); border-radius: 6px; padding: 0 6px; white-space: nowrap; }
+.sr-beeld { height: 96px; flex-shrink: 0; border-radius: 10px; background: #F1F3F4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; overflow: hidden; font-family: Arial, sans-serif; font-weight: 400; }
+/* 1 · de computer */
+.pc-scherm { width: 150px; height: 74px; border: 5px solid var(--navy-deep); border-radius: 6px; background: var(--navy); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; }
+.pc-avatar { width: 22px; height: 22px; border-radius: 50%; background: var(--peri); }
+.pc-veld { width: 92px; height: 16px; border-radius: 3px; background: #fff; color: #5F6368; font-size: 12px; line-height: 16px; text-align: center; letter-spacing: 2px; }
+.pc-voet { width: 44px; height: 9px; margin-top: -8px; background: var(--navy-deep); border-radius: 0 0 4px 4px; }
+/* 2 · de adresbalk */
+.url-balk { background: #fff; border: 1px solid #DADCE0; border-radius: 99px; padding: 4px 16px; font-size: 17px; color: #202124; }
+.url-knop, .opdr-link { background: #1A73E8; color: #fff; border-radius: 6px; padding: 3px 14px; font-size: 15px; font-weight: 700; }
+/* 3 · aanmelden */
+.login-veld { width: 200px; background: #fff; border: 1px solid #DADCE0; border-radius: 6px; padding: 4px 10px; font-size: 15px; color: #5F6368; }
+.login-veld b { color: #202124; }
+/* 4 · de lesgroep */
+.lesgroep { width: 200px; height: 84px; border-radius: 8px; background: #fff; border: 1px solid #DADCE0; overflow: hidden; }
+.lesgroep-kop { display: block; height: 52px; background: #137333; color: #fff; font-size: 16px; font-weight: 700; padding: 8px 10px; }
+/* 5 · de tabbladen */
+.tabs { display: flex; align-items: flex-end; gap: 16px; background: #fff; border-bottom: 1px solid #DADCE0; padding: 10px 14px 0; border-radius: 8px 8px 0 0; }
+.tab-grijs { width: 46px; height: 10px; margin-bottom: 12px; border-radius: 5px; background: #DADCE0; }
+.tab-aan { font-size: 17px; font-weight: 700; color: #137333; border-bottom: 4px solid #137333; padding: 0 2px 6px; }
+/* 6 · de opdracht */
+.opdr-rij { display: flex; align-items: center; gap: 8px; width: 92%; background: #fff; border: 1px solid #DADCE0; border-radius: 8px; padding: 5px 8px; font-size: 13px; color: #202124; }
+.opdr-ic { width: 22px; height: 22px; flex-shrink: 0; border-radius: 50%; background: #137333; }
+/* 7 · de bijlagen */
+.bijl-chip { width: 88%; display: flex; align-items: center; gap: 8px; background: #fff; border: 1px solid #DADCE0; border-radius: 8px; padding: 4px 10px; font-size: 15px; color: #5F6368; }
+.bijl-chip.aan { border: 3px solid var(--ok); color: #202124; font-weight: 700; }
+.bijl-ic { width: 18px; height: 18px; flex-shrink: 0; border-radius: 4px; background: var(--peri); }
+.bijl-chip.aan .bijl-ic { background: var(--navy); }
+
+/* sprekersnotities */
+.notes { display: none; position: fixed; left: 0; right: 0; bottom: 0; max-height: 38vh; overflow: auto; background: #fff; border-top: 5px solid var(--blush); padding: 14px 22px; font-size: 17px; line-height: 1.5; z-index: 5; }
+body.show-notes .notes { display: block; }
+.notes h3 { margin: 0 0 6px; font-family: "Montserrat", Arial, sans-serif; color: var(--navy-deep); font-size: 16px; }
+.hud { position: fixed; top: 10px; right: 14px; color: #fff; background: rgba(29,35,64,.75); padding: 3px 10px; border-radius: 99px; font-size: 14px; z-index: 6; }
+.hud kbd { background: #2A3973; border-radius: 4px; padding: 0 5px; color: #fff; }
+body.show-notes .hud, body:fullscreen .hud { display: none; }

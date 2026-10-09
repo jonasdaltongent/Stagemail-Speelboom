@@ -1,0 +1,22 @@
+{
+  "_uitleg": "Wordt gelezen door _tools/zet_opdracht_klaar.py (zie _tools/CLASSROOM-KOPPELING.md). Dit bestand staat openbaar op GitHub: zet hier nooit een e-mailadres of wachtwoord in. {deadline} vult het script zelf in; klas en deadline komen uit lesdoelen.json.",
+  "titel": "Les 3 — Professionele e-mail aan een stageplaats",
+  "onderwerp": "Module 1 — Organiseren en professioneel communiceren",
+  "instructie": [
+    "Open de lespagina en werk stap 1 tot 7 af.",
+    "Je schrijft alles in je werkdocument Stagemail. Je hebt niets anders nodig.",
+    "",
+    "Klik op Inleveren, ten laatste {deadline}."
+  ],
+  "bijlagen": [
+    {
+      "soort": "link",
+      "url": "https://jonasdaltongent.github.io/Stagemail-Speelboom/"
+    },
+    {
+      "soort": "kopie",
+      "bestand": "werkdocument/Stagemail.docx",
+      "naam": "Stagemail"
+    }
+  ]
+}

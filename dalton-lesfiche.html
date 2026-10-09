@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dalton-lesfiche · 3MWb · Les 3 — Professionele e-mail aan een stageplaats</title>
+<!--
+  Dalton-lesfiche voor de leerlingen, in de kleurcode van het Dalton-sjabloon:
+    tijdsblokken  #1D1FB4  vet + onderlijnd
+    tussenkoppen  #288ED4  vet
+    tekst         #222222  (taaktitels vet)
+  De opmaak staat INLINE, zodat ze meekomt als je kopieert en plakt in je planner.
+  Keuzewerktijd = 50 minuten - instructietijd.
+-->
+<style>
+  body { margin: 2rem auto; max-width: 720px; padding: 0 1rem; background: #fff; }
+  .uitleg { font: 13px/1.5 Arial, sans-serif; color: #555; background: #f6f6f6; border-radius: 8px; padding: .7rem .9rem; margin-bottom: 1.4rem; }
+  .uitleg button { font: inherit; font-weight: bold; margin-left: .4rem; padding: .25rem .8rem; cursor: pointer; }
+</style>
+</head>
+<body>
+
+<p class="uitleg">Kopieer de fiche hieronder en plak ze in je planner: de kleuren gaan mee.
+  <button type="button" id="kopieer">Kopieer de fiche</button> <span id="gemeld"></span></p>
+
+<div id="fiche" style="font-family: 'Open Sans', Arial, sans-serif; font-size: 14px; line-height: 1.5; color: #222222;">
+  <p style="margin: 0 0 14px;"><span style="color: #1D1FB4; font-weight: bold; text-decoration: underline;">LESTIJD/OEFENTIJD - duurt 10 minuten</span></p>
+
+  <p style="margin: 0 0 6px; color: #288ED4; font-weight: bold;">Wat leer ik? Lesdoel(en):</p>
+  <ul style="margin: 0 0 14px; list-style-type: disc;">
+    <li>Ik schrijf een e-mail aan iemand die ik nog niet ken: mijn mentor op de stageplaats.</li>
+    <li>Ik kies tussen Aan, Cc en Bcc.</li>
+    <li>Ik gebruik een duidelijk onderwerp, een beleefde aanspreking, korte alinea's en een slotgroet met mijn naam.</li>
+  </ul>
+
+  <p style="margin: 0 0 6px; color: #288ED4; font-weight: bold;">Wat heb ik nodig?</p>
+  <ul style="margin: 0 0 18px; list-style-type: disc;">
+    <li>Een computer in lokaal 18 en mijn schoolaccount.</li>
+    <li>De opdracht Les 3 — Professionele e-mail aan een stageplaats in Classroom: de lespagina en mijn werkdocument Stagemail.</li>
+  </ul>
+
+  <p style="margin: 0 0 14px;"><span style="color: #1D1FB4; font-weight: bold; text-decoration: underline;">KEUZEWERKTIJD - duurt 40 minuten</span></p>
+
+  <p style="margin: 0 0 6px; color: #288ED4; font-weight: bold;">Deze Daltontaken moet je maken. Je werkt ze af in deze volgorde.</p>
+  <ul style="margin: 0 0 14px; list-style-type: disc;">
+    <li><strong>Stap 1 · Klaarzetten - 3 minuten</strong>
+      <ul style="list-style-type: circle;"><li>verplicht</li><li>individueel</li></ul></li>
+    <li><strong>Stap 2–3 · Wat is er mis? en Aan, Cc of Bcc? - 12 minuten</strong>
+      <ul style="list-style-type: circle;"><li>verplicht</li><li>individueel</li></ul></li>
+    <li><strong>Stap 4–5 · Je e-mail schrijven - 16 minuten</strong>
+      <ul style="list-style-type: circle;"><li>verplicht</li><li>individueel</li></ul></li>
+    <li><strong>Stap 6 · Nalezen met je buur - 5 minuten</strong>
+      <ul style="list-style-type: circle;"><li>verplicht</li><li>in duo: je buur is je testlezer</li></ul></li>
+    <li><strong>Stap 7 · Controleren en inleveren - 4 minuten</strong>
+      <ul style="list-style-type: circle;"><li>verplicht</li><li>individueel</li></ul></li>
+    <li><strong>Extra · E-mailquiz - als je tijd over hebt</strong>
+      <ul style="list-style-type: circle;"><li>niet verplicht</li><li>individueel</li></ul></li>
+  </ul>
+
+  <p style="margin: 0 0 6px; color: #288ED4; font-weight: bold;">Klaar tegen?</p>
+  <ul style="margin: 0; list-style-type: disc;">
+    <li>Vrijdag 16 oktober 2026 om 20.00 uur: je werkdocument Stagemail is ingeleverd.</li>
+    <li>Er wordt niets echt verstuurd: je e-mail staat in je werkdocument.</li>
+  </ul>
+</div>
+
+<script>
+  // Kopieert de fiche MET opmaak (kleuren, vet, onderlijnd) naar het klembord.
+  // 1) moderne klembordfunctie met HTML, 2) oudere manier, 3) anders: fiche selecteren.
+  var knop = document.getElementById('kopieer'), melding = document.getElementById('gemeld');
+  var fiche = document.getElementById('fiche');
+  function selecteer() {
+    var bereik = document.createRange(); bereik.selectNodeContents(fiche);
+    var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(bereik);
+  }
+  function oudeManier() {
+    selecteer();
+    var gelukt = false;
+    try { gelukt = document.execCommand('copy'); } catch (e) { gelukt = false; }
+    melding.textContent = gelukt ? 'Gekopieerd. Plak het in je planner.'
+                                 : 'De fiche is geselecteerd: druk nu op Cmd + C (of Ctrl + C).';
+  }
+  knop.addEventListener('click', function () {
+    if (navigator.clipboard && window.ClipboardItem) {
+      var item = new ClipboardItem({
+        'text/html': new Blob([fiche.outerHTML], { type: 'text/html' }),
+        'text/plain': new Blob([fiche.innerText], { type: 'text/plain' })
+      });
+      navigator.clipboard.write([item]).then(function () {
+        melding.textContent = 'Gekopieerd. Plak het in je planner.';
+      }, oudeManier);
+    } else {
+      oudeManier();
+    }
+  });
+</script>
+</body>
+</html>

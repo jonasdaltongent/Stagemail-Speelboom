@@ -1,0 +1,41 @@
+{
+  "lesid": "stagemail-speelboom",
+  "lesnr": "03",
+  "titel": "Professionele e-mail aan een stageplaats",
+  "week": 7,
+  "schooljaar": "2026-2027",
+  "datum": "2026-10-12",
+  "_opmerking_datum": "Maandag 12 oktober 2026, 9de lesuur, lokaal 18 (rooster van 25-09-2026). Pas aan als de les verschuift.",
+  "klasgroepen": [
+    "3 MW"
+  ],
+  "_opmerking_klasgroepen": "De klasgroepcode moet '3 MW' zijn: daarmee telt het blad '3 Maatschappij en welzijn' de regels op. De echte klasnaam staat hieronder.",
+  "klasnaam": "3MWb",
+  "finaliteit": "dubbele finaliteit",
+  "lesduur_minuten": 50,
+  "evaluatie": "summatief (portfolio)",
+  "deadline": "2026-10-16T20:00",
+  "bron": "https://github.com/jonasdaltongent/Stagemail-Speelboom",
+  "doelen": [
+    {
+      "code": "BV2_04.01",
+      "rol": "kern"
+    },
+    {
+      "code": "BV2_02.07",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BV2_02.07.02",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BV2_02.12",
+      "rol": "ondersteunend"
+    },
+    {
+      "code": "BV2_04.04",
+      "rol": "voorbereidend"
+    }
+  ]
+}

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Professionele e-mail aan een stageplaats · dia's · De Speelboom</title>
+  <link rel="icon" href="assets/speelboom-icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/slides.css">
+  <style>
+    .klok { font-size: 22px; color: #4D5573; }
+    .compact .two { flex: 0 0 auto; }
+    .compact .panel p { margin-bottom: 10px; }
+    .compact .panel p:last-child { margin-bottom: 0; }
+    .steps2 { columns: 2; column-gap: 40px; margin: 0; }
+    .steps2 li { font-size: 25px; margin-bottom: 6px; break-inside: avoid; }
+    .steps1 { margin: 0; padding-left: 1.2em; }
+    .steps1 li { font-size: 27px; margin-bottom: 14px; }
+    .steps1 li:last-child { margin-bottom: 0; }
+    .qcol .opt { font-size: 26px; padding: 10px 18px; }
+    /* Een nagemaakt venster "Nieuw bericht" (dia 4 en 6) */
+    .venster { background: #fff; border: 2px solid #C4C7C5; border-radius: 14px 14px 8px 8px; overflow: hidden; font-family: Arial, sans-serif; color: #202124; box-shadow: 0 8px 24px rgba(29,35,64,.15); }
+    .venster .vk { background: #F2F6FC; font-weight: 700; font-size: 20px; padding: 8px 18px; }
+    .venster .vv { display: flex; gap: 16px; border-bottom: 1px solid #E3E3E3; padding: 7px 18px; font-size: 20px; }
+    .venster .vv span:first-child { color: #5F6368; width: 110px; flex-shrink: 0; }
+    .venster .vt { padding: 12px 18px 6px; font-size: 20px; }
+    .venster .vt p { font-size: 20px; margin: 0 0 12px; line-height: 1.35; }
+    .venster .lijn { display: block; height: 10px; border-radius: 5px; background: #E1E3EC; margin: 0 0 10px; }
+    .venster .vf { padding: 4px 18px 14px; }
+    .venster .verz { display: inline-block; background: #0B57D0; color: #fff; font-weight: 700; font-size: 18px; border-radius: 99px; padding: 5px 20px; }
+    .leeg { color: #A0372A; font-style: italic; }
+    /* dia 4: zes delen, met labels die één voor één verschijnen */
+    .delen { display: grid; grid-template-columns: 1fr 330px; gap: 34px; flex: 1; min-height: 0; align-items: start; }
+    .labels { list-style: none; padding: 0 !important; margin: 0; counter-reset: d; }
+    .labels li { counter-increment: d; font-size: 26px; margin: 0 0 16px; display: flex; align-items: center; gap: 14px; }
+    .labels li::before { content: counter(d); width: 44px; height: 44px; flex-shrink: 0; border-radius: 50%; background: var(--navy); color: #fff; font-family: "Montserrat", Arial, sans-serif; font-weight: 900; font-size: 22px; display: grid; place-items: center; }
+    /* dia 5: twee tabbladen */
+    .tabbalk { display: flex; gap: 6px; background: #DEE1E6; border-radius: 14px 14px 0 0; padding: 10px 12px 0; font-family: Arial, sans-serif; }
+    .tabbalk span { background: #F1F3F4; border-radius: 10px 10px 0 0; padding: 10px 22px; font-size: 21px; color: #3C4043; }
+    .tabbalk span.aan { background: #fff; font-weight: 700; color: #202124; }
+    .tabonder { background: #fff; border: 2px solid #DEE1E6; border-top: 0; border-radius: 0 0 14px 14px; height: 40px; }
+    .uitleg3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-top: 26px; }
+    .uitleg3 .panel { font-size: 24px; line-height: 1.35; }
+    .uitleg3 .panel b { display: block; font-family: "Montserrat", Arial, sans-serif; color: var(--navy-deep); font-size: 26px; margin-bottom: 6px; }
+    .rij1 { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin-top: 18px; }
+    .rij1 .panel { font-size: 24px; }
+  </style>
+</head>
+<body>
+<div class="hud"><span id="counter"></span> · <kbd>→</kbd> verder · <kbd>F</kbd> volledig scherm · <kbd>N</kbd> notities</div>
+<div class="deck"><div class="stage">
+
+<!-- 1 · vaste startdia -->
+<section class="slide start">
+  <div class="start-kop">
+    <div>
+      <p class="kicker">Toegepaste Informatica · les 3</p>
+      <h1>Professionele e-mail aan een stageplaats</h1>
+    </div>
+    <span class="start-zo">Zo start je</span>
+  </div>
+  <ol class="startroute">
+    <li><div class="sr-beeld"><div class="pc-scherm"><span class="pc-avatar"></span><span class="pc-veld">••••••</span></div><div class="pc-voet"></div></div><span class="sr-tekst">Meld je aan op de computer.</span></li>
+    <li><div class="sr-beeld"><span class="url-balk">classroom.google.com</span><span class="url-knop">Inloggen</span></div><span class="sr-tekst">Ga in Chrome naar Classroom. Klik op <span class="knop">Inloggen</span>.</span></li>
+    <li><div class="sr-beeld"><span class="login-veld">…<b>@dalton.gent</b></span><span class="login-veld">••••••••</span></div><span class="sr-tekst">Log in met je schoolaccount.</span></li>
+    <li><div class="sr-beeld"><div class="lesgroep"><span class="lesgroep-kop">3MWb - Informatica</span></div></div><span class="sr-tekst">Klik op je lesgroep.</span></li>
+    <li><div class="sr-beeld"><div class="tabs"><span class="tab-grijs"></span><span class="tab-aan">Schoolwerk</span><span class="tab-grijs"></span></div></div><span class="sr-tekst">Klik op <span class="knop">Schoolwerk</span>.</span></li>
+    <li><div class="sr-beeld"><span class="opdr-rij"><span class="opdr-ic"></span>Les 3 — Professionele e-mail…</span><span class="opdr-link">Instructies bekijken</span></div><span class="sr-tekst">Klik op de opdracht › <span class="knop">Instructies bekijken</span>.</span></li>
+    <li><div class="sr-beeld"><span class="bijl-chip aan"><span class="bijl-ic"></span>Lespagina · Les 3</span><span class="bijl-chip"><span class="bijl-ic"></span>Stagemail</span></div><span class="sr-tekst">Klik op de lespagina.</span></li>
+    <li class="klaar">Klaar? Laat de lespagina open en kijk naar het bord.</li>
+  </ol>
+  <template class="note">
+    <p><strong>Instructie, 0–2'. De vaste startdia</strong> (elke les dezelfde, voor alle klassen). Laat ze op het bord staan terwijl de leerlingen aanmelden.</p>
+    <p>Het <strong>wachtwoord van de computers</strong> staat niet op de dia: de dia's staan openbaar online. Zeg het, of schrijf het op het bord.</p>
+    <p>Ga verder als de meesten de lespagina open hebben. Wie vastzit bij stap 4 tot 6: wijs de tegel aan, en help daarna, niet ervoor.</p>
+  </template>
+</section>
+
+<!-- 2 -->
+<section class="slide" data-answer>
+  <p class="kicker">Lesstart · 3 minuten</p>
+  <h2>Weet je het nog?</h2>
+  <div class="qcol">
+    <p style="font-size:30px;font-weight:700;margin:0 0 8px">Waar bewaar je je stagewerk?</p>
+    <div class="opts">
+      <div class="opt"><span class="n">A</span>In Downloads, op de computer van de klas</div>
+      <div class="opt right"><span class="n">B</span>In je Drive, in je stageportfolio</div>
+      <div class="opt"><span class="n">C</span>Op het bureaublad</div>
+    </div>
+  </div>
+  <p class="answer">In Drive staat het overal waar je aanmeldt. Vandaag: een e-mail aan je stageplaats.</p>
+  <template class="note">
+    <p><strong>Lesstart (3'), ophalen uit les 2.</strong> Iedereen antwoordt tegelijk met vingers: 1, 2 of 3 vingers voor A, B of C. Druk daarna op → voor het antwoord.</p>
+    <p>Wie A kiest: <em>"Kan je dat bestand thuis openen?"</em> Wie C kiest: <em>"Staat het bureaublad van deze computer ook thuis?"</em></p>
+    <p>Eén zin over les 2: <em>"Bij de meesten liep het moeilijk. Vandaag werk je in één document: je werkdocument."</em></p>
+  </template>
+</section>
+
+<!-- 3 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 1 van 4</p>
+  <h2>Wat kan je straks?</h2>
+  <ul class="rules">
+    <li>Je schrijft een e-mail aan iemand die je <strong>nog niet kent</strong>: je mentor.</li>
+    <li>Je kiest tussen <strong>Aan</strong>, <strong>Cc</strong> en <strong>Bcc</strong>.</li>
+    <li>Je gebruikt de vaste delen: <strong>onderwerp</strong>, <strong>aanspreking</strong>, <strong>bericht</strong> en <strong>slotgroet</strong>.</li>
+  </ul>
+  <p class="klok" style="margin-top:8px">Vandaag geen Gmail: je schrijft in je werkdocument, in een venster dat eruitziet als Gmail.</p>
+  <template class="note"><p><strong>Ik doe, 0'30".</strong> Lesdoel voorlezen, niet toelichten. Zeg dat er niets echt verstuurd wordt: ze leveren het werkdocument in.</p></template>
+</section>
+
+<!-- 4 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 2 van 4 · het eindproduct</p>
+  <h2>Een e-mail in zes delen</h2>
+  <div class="delen">
+    <div class="venster">
+      <div class="vk">Nieuw bericht</div>
+      <div class="vv"><span>Aan</span><span>lien.verhoeven@despeelboom.example</span></div>
+      <div class="vv"><span>Cc</span><span>ilse.wouters@school.example</span></div>
+      <div class="vv"><span>Onderwerp</span><span>Kennismaking stagiair …</span></div>
+      <div class="vt">
+        <p>Beste mevrouw Verhoeven,</p>
+        <span class="lijn" style="width:92%"></span><span class="lijn" style="width:80%"></span><span class="lijn" style="width:62%"></span>
+        <p style="margin-top:14px">Met vriendelijke groeten,</p>
+        <span class="lijn" style="width:38%"></span>
+      </div>
+      <div class="vf"><span class="verz">Verzenden</span></div>
+    </div>
+    <ol class="labels">
+      <li class="reveal-item"><span><strong>Aan</strong>: je mentor</span></li>
+      <li class="reveal-item"><span><strong>Cc</strong>: leest mee</span></li>
+      <li class="reveal-item"><span><strong>Onderwerp</strong>: waarover?</span></li>
+      <li class="reveal-item"><span><strong>Aanspreking</strong> met een komma</span></li>
+      <li class="reveal-item"><span><strong>Bericht</strong>: wie, waarom, vraag</span></li>
+      <li class="reveal-item"><span><strong>Slotgroet</strong> en je naam</span></li>
+    </ol>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'30". Het eindproduct.</strong> Wijs elk deel aan in het venster en druk telkens op → voor het label.</p>
+    <p>Bij Cc: <em>"Je stagebegeleider van school wil meelezen, maar moet niets doen."</em> Bij de aanspreking: <em>"Je kent haar niet. Dus geen voornaam, en u in plaats van je."</em></p>
+    <p>Het bericht toon je niet: dat schrijven ze zelf, met het bouwplan van stap 5.</p>
+  </template>
+</section>
+
+<!-- 5 -->
+<section class="slide">
+  <p class="kicker">Ik doe · dia 3 van 4 · demo</p>
+  <h2>Lezen hier, schrijven daar</h2>
+  <div class="tabbalk"><span class="aan">Lespagina · Les 3</span><span>Stagemail</span></div>
+  <div class="tabonder"></div>
+  <div class="uitleg3">
+    <div class="panel"><b>1 · De opdracht</b>Daar begin je. Daar lever je in.</div>
+    <div class="panel"><b>2 · De lespagina</b>Daar lees je wat je moet doen.</div>
+    <div class="panel"><b>3 · Stagemail</b>Daar schrijf je. Dat lever je in.</div>
+  </div>
+  <p class="reveal-item" style="margin-top:22px;font-size:27px"><strong>Wisselen?</strong> Klik bovenaan op het tabblad.</p>
+  <template class="note">
+    <p><strong>Ik doe, 2' — voordoen in je eigen browser</strong> (je eigen kopie van Stagemail: zie README, klaarzetten).</p>
+    <ol>
+      <li>Toon de opdracht: <em>"Hier staan twee dingen: de lespagina en je werkdocument met jouw naam."</em></li>
+      <li>Klik op de lespagina: een nieuw tabblad. Ga terug en klik op Stagemail: nog een tabblad.</li>
+      <li>Wissel twee keer tussen de tabbladen. Zeg: <em>"Lezen doe je in de lespagina, schrijven in Stagemail."</em></li>
+      <li>Klik in Stagemail in het vak naast <em>Aan</em> en typ één letter: <em>"Zo schrijf je in het venster."</em> Wis de letter.</li>
+    </ol>
+    <p>Dit is het deel waar les 2 vastliep: neem er de tijd voor.</p>
+  </template>
+</section>
+
+<!-- 6 -->
+<section class="slide compact">
+  <p class="kicker">Ik doe · dia 4 van 4 · demo</p>
+  <h2>Fout 1 doen we samen</h2>
+  <div class="venster" style="max-width:860px">
+    <div class="vv"><span>Aan</span><span>lien.verhoeven@despeelboom.example</span></div>
+    <div class="vv"><span>Onderwerp</span><span class="leeg">(leeg)</span></div>
+    <div class="vt"><p>hey lien</p><p>ik ben kobe en ik kom stage doen bij jullie. wanneer moet ik komen?? 😅</p><p>mvg</p></div>
+  </div>
+  <div class="rij1">
+    <div class="panel reveal-item"><strong>Wat is er mis?</strong><br>Er is geen onderwerp.</div>
+    <div class="panel reveal-item"><strong>Zo is het beter</strong><br>Kennismaking stagiair Kobe Martens – stage vanaf 16 november</div>
+  </div>
+  <template class="note">
+    <p><strong>Ik doe, 1'30" — hardop denkend.</strong> <em>"Kobe stuurt dit aan iemand die hem niet kent. Wat ziet zij eerst? Het onderwerp. Dat is leeg."</em> Druk op → en nog eens →.</p>
+    <p>Zeg: <em>"Dit staat al in deel 1 van je werkdocument. Er zijn nog vier fouten. Twee daarvan zoek jij."</em></p>
+    <p>Benoem de andere fouten <strong>niet</strong>: dat is stap 2.</p>
+  </template>
+</section>
+
+<!-- 7 -->
+<section class="slide compact">
+  <p class="kicker">Keuzewerktijd · 40 minuten</p>
+  <h2>Zo werk je verder</h2>
+  <div class="two" style="grid-template-columns: 1.6fr 1fr">
+    <div>
+      <ol class="steps2">
+        <li>Klaarzetten <span class="klok">3'</span></li>
+        <li>Wat is er mis? <span class="klok">7'</span></li>
+        <li>Aan, Cc of Bcc? <span class="klok">5'</span></li>
+        <li>Het begin van je e-mail <span class="klok">6'</span></li>
+        <li>Je bericht <span class="klok">10'</span></li>
+        <li>Nalezen met je buur <span class="klok">5'</span></li>
+        <li>Controleren en inleveren <span class="klok">4'</span></li>
+      </ol>
+    </div>
+    <div class="panel navy">
+      <p style="font-size:25px"><strong>Vast?</strong></p>
+      <p style="font-size:26px">1. Theoriekaart<br>2. Hulp nodig?<br>3. Je buur &nbsp; 4. Ik</p>
+      <p style="margin-top:14px;font-size:22px">Vink af in de <strong>checklist</strong>.</p>
+    </div>
+  </div>
+  <p class="klok" style="margin-top:18px;font-size:25px">
+    <strong>Alles staat in de opdracht in Google Classroom</strong> <em>Les 3 — Professionele e-mail aan een stageplaats</em>: de lespagina en je werkdocument Stagemail.
+    Je levert je <strong>werkdocument</strong> in.<br>Adres: jonasdaltongent.github.io/Stagemail-Speelboom/<!-- PAS AAN --></p>
+  <template class="note">
+    <p><strong>Keuzewerktijd, 40'.</strong> Laat deze dia staan zolang ze werken. De minuten per stap tellen samen op tot 40, inleveren inbegrepen.</p>
+    <p>Eerste rondgang (stap 1–2): heeft iedereen de lespagina én Stagemail open, in twee tabbladen? Dat eerst, voor alles.</p>
+    <p>Tweede rondgang (stap 4–5): Aan en Cc juist overgetypt? <em>u</em> in plaats van <em>je</em>? Laat wie klaar is met stap 5 al een buur zoeken voor stap 6.</p>
+    <p><strong>Vergeet niet</strong> het adres op deze dia aan te passen als de repository anders heet.</p>
+  </template>
+</section>
+
+<!-- 8 -->
+<section class="slide" data-answer>
+  <p class="kicker">Afsluiten · laatste minuut</p>
+  <h2>Je mentor krijgt elke dag veel e-mails</h2>
+  <p style="font-size:34px;font-weight:700;margin-top:10px">Waarom helpt een duidelijk onderwerp haar?</p>
+  <p class="answer" style="font-size:30px">Ze ziet meteen van wie de e-mail is en waarover het gaat. En ze vindt hem later terug.</p>
+  <p style="margin-top:40px">Volgende les, <strong>maandag 26 oktober</strong>: een bericht aan de ouders van een kind.</p>
+  <template class="note">
+    <p><strong>Afsluiting, laatste minuut van de keuzewerktijd.</strong> Twee of drie leerlingen antwoorden; druk dan op → voor het antwoord. Dezelfde vraag staat in deel 5 van het werkdocument.</p>
+    <p>Zeg mondeling dat wie niet klaar is, toch inlevert.</p>
+    <p>Maandag 19 oktober is er geen les (studienamiddag).</p>
+  </template>
+</section>
+
+</div></div>
+<div class="notes" id="notes"></div>
+<script src="js/slides.js"></script>
+</body>
+</html>
