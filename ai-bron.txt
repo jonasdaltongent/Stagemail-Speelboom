@@ -1,0 +1,480 @@
+BRON VOOR DE AI-HULP — Lespagina · Les 3 · Professionele e-mail aan een stageplaats · De Speelboom
+Dit is de volledige tekst van de lespagina: de startpagina, de theoriekaart, elke stap met 'Wat moet je doen?', 'Hulp nodig?' en 'Klaar als', en de checklist.
+
+======================================================================
+STARTPAGINA
+======================================================================
+Toegepaste Informatica · les 3
+
+Professionele e-mail aan een stageplaats
+
+Je loopt binnenkort stage in De Speelboom. Vandaag schrijf je je mentor daar een eerste e-mail.
+
+Wat heb je nodig?
+
+-
+
+De opdracht in Google Classroom
+
+Hier begin je. Hier lever je in.
+
+-
+
+Deze lespagina
+
+Hier lees je wat je moet doen, stap voor stap.
+
+-
+
+Je werkdocument Stagemail
+
+Hier schrijf je je e-mail. Dit lever je in.
+
+Het venster in je werkdocument lijkt op Gmail. Je verstuurt niets echt.
+
+Na deze les kan je
+
+- een e-mail schrijven aan iemand die je nog niet kent;
+
+- kiezen tussen Aan, Cc en Bcc;
+
+- een duidelijk onderwerp, een beleefde aanspreking en een slotgroet gebruiken.
+
+Vast? Probeer het in deze volgorde
+
+- Theoriekaart
+
+- Hulp nodig? onder de stap
+
+- Je buur
+
+- Je leraar
+
+Start met stap 1
+
+======================================================================
+THEORIEKAART
+======================================================================
+Spiekbriefje
+
+Theoriekaart
+
+Alles op één plek. Kom hier terug als je iets niet meer weet.
+
+De delen van een e-mail
+
+- Aan, Cc, Bcc: wie je e-mail krijgt
+
+- Onderwerp: waarover het gaat
+
+- Aanspreking: Beste mevrouw Verhoeven,
+
+- Bericht: korte alinea's
+
+- Slotgroet en je naam
+
+Aan, Cc of Bcc?
+
+| Aan | voor wie je e-mail is. Die persoon moet iets doen.
+
+| Cc | leest mee en moet niets doen. Iedereen ziet dit adres.
+
+| Bcc | leest mee. Niemand ziet dit adres.
+
+Mail je een groep, zoals alle ouders? Zet de adressen in Bcc.
+
+Het onderwerp
+
+- Vul het altijd in.
+
+- Zeg in een paar woorden waarover het gaat.
+
+- Niet vraag, wel Vraag over het uurrooster van woensdag.
+
+De aanspreking
+
+- Je kent iemand niet: Beste mevrouw Verhoeven, of Beste meneer Janssens,
+
+- Heel officieel: Geachte mevrouw Verhoeven,
+
+- De voornaam alleen als je iemand kent.
+
+- Na de aanspreking: een komma.
+
+Het bericht
+
+- Zeg wie je bent, waarom je mailt en wat je vraagt.
+
+- Korte alinea's, met een witregel ertussen.
+
+- Iemand die je niet kent, schrijf je met u en uw, zonder hoofdletter.
+
+De slotgroet
+
+- Met vriendelijke groeten,
+
+- Daaronder je voornaam en achternaam, je klas en je school.
+
+- Geen afkortingen zoals mvg: dat lijkt slordig.
+
+Voor je verstuurt
+
+- Lees alles na: klopt het adres, is de toon beleefd, zijn er geen taalfouten?
+
+- Laat iemand anders je e-mail lezen: een testlezer ziet sneller wat beter kan.
+
+Woorden
+
+| ontvanger | wie je e-mail krijgt
+
+| Cc | krijgt een kopie om te lezen; moet niets doen
+
+| Bcc | krijgt een kopie, maar niemand ziet dat adres
+
+| onderwerp | de korte titel van je e-mail
+
+| aanspreking | de eerste regel: Beste mevrouw Verhoeven,
+
+| slotgroet | de afsluiting: Met vriendelijke groeten,
+
+| formeel | beleefd en met afstand, zoals tegen iemand die je niet kent
+
+| stagementor | wie jou begeleidt op je stageplaats
+
+Veelgemaakte fouten
+
+- Geen onderwerp, of een onderwerp zoals vraagje of stage.
+
+- Hey of Hallo met een voornaam, aan iemand die je niet kent.
+
+- u en je door elkaar.
+
+- Alles in één blok, zonder witregels.
+
+- Emoji's, chattaal of mvg; geen naam onder de e-mail.
+
+Alle namen en adressen in deze les zijn verzonnen.
+
+======================================================================
+STAP 1 — Klaarzetten
+======================================================================
+Stap 1 Werkdocument
+
+Klaarzetten
+
+Je zet je werkdocument klaar. Daarin schrijf je vandaag alles.
+
+Wat moet je doen?
+
+- Klik in de opdracht op je werkdocument Stagemail. Het heeft jouw naam in de titel.
+
+- Vul bovenaan je naam, je klas en de datum in.
+
+- Lees in je werkdocument het kader Je stage. Daar staan je mentor en haar adres.
+
+Twee tabbladen. Bovenaan in Chrome staan nu deze lespagina en je werkdocument. Klik op een tabblad om te wisselen.
+
+Hulp nodig?
+
+Vind je je werkdocument niet? Kijk opnieuw in de opdracht. Het heet Stagemail, met jouw naam erbij.
+
+Is deze lespagina weg? Klik bovenaan op het andere tabblad.
+
+Klaar als: je werkdocument open is, met je naam erin, en je het kader Je stage gelezen hebt.
+
+======================================================================
+STAP 2 — Wat is er mis?
+======================================================================
+Stap 2 Werkdocument, deel 1
+
+Wat is er mis?
+
+Kobe stuurde deze e-mail aan zijn mentor. Ze kent hem nog niet. Wat denkt ze nu over Kobe?
+
+Nieuw bericht
+
+Aan lien.verhoeven@despeelboom.example
+
+Onderwerp (leeg)
+
+hey lien
+
+ik ben kobe en ik kom stage doen bij jullie. wanneer moet ik komen?? 😅
+
+mvg
+
+Verzenden
+
+Wat moet je doen?
+
+- Lees de e-mail van Kobe. Er zijn vijf fouten.
+
+- Ga naar deel 1 van je werkdocument. Fout 1 staat er al: je leraar deed ze voor.
+
+- Schrijf nog twee fouten op. Schrijf er telkens bij hoe het beter kan.
+
+Hulp nodig? Waar moet je kijken?
+
+- De eerste regel: hoe spreekt Kobe zijn mentor aan?
+
+- Weet de mentor wie Kobe is: welke school, welke klas, wanneer zijn stage is?
+
+- De woorden en tekens: schrijf je zo aan iemand die je niet kent?
+
+- De laatste regel: hoe sluit Kobe af, en staat zijn naam er?
+
+Kijk ook op de theoriekaart, bij Veelgemaakte fouten.
+
+Klaar als: in deel 1 drie fouten staan, elk met hoe het beter kan.
+
+======================================================================
+STAP 3 — Aan, Cc of Bcc?
+======================================================================
+Stap 3 Werkdocument, deel 2
+
+Aan, Cc of Bcc?
+
+Een e-mail kan naar meer mensen. Het vakje waarin je een adres zet, zegt wat die persoon moet doen.
+
+Aan Voor wie je e-mail is. Die persoon moet iets doen.
+
+Cc Leest mee en moet niets doen. Iedereen ziet dit adres.
+
+Bcc Leest mee. Niemand ziet dit adres.
+
+Wat moet je doen?
+
+- Ga naar deel 2 van je werkdocument.
+
+- Schrijf bij elke situatie Aan, Cc of Bcc.
+
+- Beantwoord vraag 1: waarom mogen de ouders elkaars adres niet zien?
+
+Hulp nodig?
+
+Vraag je bij elke persoon af: moet die iets doen? Dan is het Aan. Alleen meelezen? Dan is het Cc of Bcc.
+
+Bij vraag 1: denk aan je beroepsgeheim uit les 2. Een e-mailadres van een ouder is ook iets wat je niet zomaar deelt.
+
+Klaar als: bij de drie situaties Aan, Cc of Bcc staat, en vraag 1 beantwoord is.
+
+======================================================================
+STAP 4 — Het begin van je e-mail
+======================================================================
+Stap 4 Werkdocument, deel 3
+
+Het begin van je e-mail
+
+Nu schrijf je je eigen e-mail aan je mentor, mevrouw Verhoeven. Je begint bovenaan in het venster.
+
+Wat moet je doen?
+
+- Ga naar deel 3 van je werkdocument: het venster Nieuw bericht.
+
+- Klik in het vak naast Aan. Typ het adres van je mentor. Het staat in het kader Je stage.
+
+- Typ naast Cc het adres van je stagebegeleider. Laat Bcc leeg.
+
+- Typ naast Onderwerp in een paar woorden waarover je e-mail gaat.
+
+- Schrijf naast aanspreking: Beste mevrouw Verhoeven,
+
+Een goed onderwerp zegt wie je bent en waarover het gaat. Niet stage, wel zoiets als het voorbeeld in deel 1, met jouw naam.
+
+Hulp nodig?
+
+Typ het adres letter voor letter over. Eén fout en je e-mail komt niet aan.
+
+Waarom Cc? Je stagebegeleider wil meelezen, maar moet niets doen. Kijk op de theoriekaart bij Aan, Cc of Bcc?
+
+Waarom geen voornaam? Je kent je mentor nog niet. Daarom Beste mevrouw Verhoeven,, met een komma.
+
+Klaar als: Aan, Cc, Onderwerp en de aanspreking ingevuld zijn, en Bcc leeg is.
+
+======================================================================
+STAP 5 — Je bericht
+======================================================================
+Stap 5 Werkdocument, deel 3
+
+Je bericht
+
+Je mentor wil drie dingen weten: wie je bent, waarom je mailt en wat je vraagt.
+
+- aanspreking Beste mevrouw Verhoeven,
+
+- wie ben je? je naam, je klas en je school
+
+- waarom mail je? wanneer je stage begint, en dat je wil kennismaken
+
+- je vraag wanneer je eens mag langskomen
+
+- slotgroet Met vriendelijke groeten,
+
+- je naam voornaam en achternaam, klas en school
+
+Wat moet je doen?
+
+- Schrijf in het venster naast wie ben je? je naam, je klas en je school.
+
+- Schrijf naast waarom mail je? wanneer je stage begint, en dat je wil kennismaken.
+
+- Schrijf naast je vraag een beleefde vraag: wanneer mag je eens langskomen?
+
+- Schrijf naast slotgroet Met vriendelijke groeten, en daaronder je voornaam en achternaam, je klas en je school.
+
+Schrijf u en uw, niet je en jij. Je kent je mentor nog niet. Dus: Wanneer past het voor u?
+
+Hulp nodig? Zinnen om mee te beginnen
+
+- Ik ben …. Ik zit in klas … van GO! Dalton Gent.
+
+- Van 16 november tot 4 december loop ik stage in De Speelboom.
+
+- Ik wil graag eens kennismaken.
+
+- Mag ik eens langskomen? Wanneer past het voor u?
+
+Maak de zinnen af met je eigen woorden.
+
+Klaar als: elk vak in het venster ingevuld is, met u en uw, en je naam onderaan staat.
+
+======================================================================
+STAP 6 — Nalezen met je buur
+======================================================================
+Stap 6 Werkdocument, deel 4 Met je buur
+
+Nalezen met je buur
+
+Een e-mail kan je niet terughalen. Daarom lees je hem eerst na, en laat je hem lezen door een testlezer: je buur.
+
+Wat moet je doen?
+
+- Lees je e-mail zachtjes voor jezelf.
+
+- Kruis in deel 4 aan wat klopt. Verbeter wat nog niet klopt.
+
+- Laat je buur je e-mail lezen op jouw scherm. Vraag: Is alles duidelijk? Wat kan beter?
+
+- Schrijf de tip van je buur in deel 4. Pas je e-mail aan.
+
+Hulp nodig?
+
+Is je buur nog niet klaar? Lees dan eerst de e-mail van je buur. Kijk naar het onderwerp, de aanspreking en de slotgroet.
+
+Een goede tip zegt wat beter kan: Je onderwerp zegt niet wie je bent. Niet alleen: Goed zo!
+
+Klaar als: alles in deel 4 aangekruist is en de tip van je buur erin staat.
+
+======================================================================
+STAP 7 — Controleren en inleveren
+======================================================================
+Stap 7 Inleveren
+
+Controleren en inleveren
+
+Bijna klaar. Test eerst of je het onthouden hebt. Er wordt niets bewaard.
+
+1. De Speelboom mailt de ouders van alle kinderen. Waar zet je hun adressen?
+
+In Aan
+In Cc
+In Bcc
+
+2. Welk onderwerp is het best?
+
+stage
+Kennismaking stagiair Ayla Benali – stage vanaf 16 november
+hallo!!
+
+3. Welke slotgroet past bij Beste mevrouw Verhoeven,?
+
+mvg
+Met vriendelijke groeten,
+Doei!
+
+Wat moet je doen?
+
+- Loop de checklist na. Staat er nog iets open? Werk het eerst af.
+
+- Beantwoord in deel 5 de slotvraag.
+
+- Klik in de opdracht op Inleveren.
+
+Klaar als: er bij de opdracht Ingeleverd staat.
+
+======================================================================
+EXTRA (niet verplicht)
+======================================================================
+Extra · niet verplicht
+
+E-mailquiz
+
+Begin hier pas nadat je hebt ingeleverd. Vier vragen voor wie nog tijd heeft. Er wordt niets bewaard.
+
+1. Je schrijft een heel officiële brief aan de directeur van een opvang. Je kent hem niet. Hoe begin je?
+
+Hoi Marc,
+Geachte heer De Clercq,
+Hallo,
+
+2. Wat zet je onder Met vriendelijke groeten,?
+
+Alleen je voornaam
+Niets: ze ziet je adres toch
+Je voornaam en achternaam, je klas en je school
+
+3. Je directeur moet niets doen, maar wil een kopie van je e-mail. Waar zet je haar adres?
+
+In Aan
+In Cc
+Ik stuur het haar later apart
+
+4. Welke zin past in een eerste e-mail aan je mentor?
+
+Wanneer heb jij tijd?
+Wanneer past het voor u?
+Wanneer heb je tijd??
+
+======================================================================
+CHECKLIST (rechts op de lespagina)
+======================================================================
+1 · Klaarzetten
+
+[ ] Werkdocument open, met mijn naam in de titel
+[ ] Naam, klas en datum ingevuld
+
+2 · Wat is er mis?
+
+[ ] De e-mail van Kobe gelezen
+[ ] Drie fouten in deel 1
+[ ] Bij elke fout: hoe het beter kan
+
+3 · Aan, Cc of Bcc?
+
+[ ] Drie situaties beantwoord
+[ ] Vraag 1 beantwoord
+
+4 · Het begin van je e-mail
+
+[ ] Aan: het adres van mijn mentor
+[ ] Cc: mijn stagebegeleider; Bcc leeg
+[ ] Een onderwerp dat zegt waarover het gaat
+[ ] Beste mevrouw Verhoeven, met een komma
+
+5 · Je bericht
+
+[ ] Wie ik ben en waarom ik mail
+[ ] Mijn vraag, met u en uw
+[ ] Met vriendelijke groeten,
+[ ] Mijn volledige naam, klas en school
+
+6 · Nalezen met je buur
+
+[ ] Deel 4 aangekruist
+[ ] Tip van mijn buur opgeschreven
+
+7 · Inleveren
+
+[ ] Zelftest gedaan
+[ ] Slotvraag in deel 5
+[ ] Werkdocument ingeleverd
