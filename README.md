@@ -57,14 +57,17 @@ W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
 
 ## 2. Klaarzetten
 
-### Stap 1 — Publiceren via GitHub Pages
+### Stap 1 — Publiceren via GitHub Pages ✅ *gebeurd op 09-10-2026*
 
-Repository `jonasdaltongent/Stagemail-Speelboom`, Pages op branch `main`, map `/ (root)`. De lespagina:
-<https://jonasdaltongent.github.io/Stagemail-Speelboom/>, de dia's: <https://jonasdaltongent.github.io/Stagemail-Speelboom/presentatie.html>.
+Repository [`jonasdaltongent/Stagemail-Speelboom`](https://github.com/jonasdaltongent/Stagemail-Speelboom), Pages op branch `main`, map `/ (root)`. De lespagina:
+<https://jonasdaltongent.github.io/Stagemail-Speelboom/>, de dia's: <https://jonasdaltongent.github.io/Stagemail-Speelboom/presentatie.html>. Dat adres staat ook op dia 7, in
+`classroom.json` en in `lesdoelen.json`. Live bestanden nagekeken: gelijk aan de lokale.
 
-### Stap 2 — De opdracht in Classroom, met de koppeling
+### Stap 2 — De opdracht in Classroom, met de koppeling ✅ *concept op 09-10-2026*
 
-Als **concept** in `3MWb - Informatica`. Toewijzen doe je zelf met **Toewijzen**.
+Als **concept** in [3MWb - Informatica](https://classroom.google.com/c/MjUzNTk0NjYzMTJa) (teruggelezen: onderwerp, deadline,
+20 punten, de link heet *Lespagina · Les 3 · …*, *Stagemail* als `STUDENT_COPY`). Toewijzen doe je zelf met
+**Toewijzen**.
 
 | | Opdracht: **Les 3 — Professionele e-mail aan een stageplaats** |
 |---|---|
