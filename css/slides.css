@@ -120,6 +120,11 @@ html, body { margin: 0; height: 100%; background: #1D2340; font-family: "Atkinso
 .bijl-ic { width: 18px; height: 18px; flex-shrink: 0; border-radius: 4px; background: var(--peri); }
 .bijl-chip.aan .bijl-ic { background: var(--navy); }
 
+/* ---------- Mascotte (sinds 10-10-2026, _afspraken/vormgeving-en-techniek.md) ----------
+   Rechtsonder; .met-mascotte houdt de tekst links ervan. Versiering, dus alt="". Nooit op dia 1. */
+.slide.met-mascotte { padding-right: 300px; }
+.slide .mascotte { position: absolute; right: 40px; bottom: 24px; width: 240px; height: 240px; pointer-events: none; }
+
 /* sprekersnotities */
 .notes { display: none; position: fixed; left: 0; right: 0; bottom: 0; max-height: 38vh; overflow: auto; background: #fff; border-top: 5px solid var(--blush); padding: 14px 22px; font-size: 17px; line-height: 1.5; z-index: 5; }
 body.show-notes .notes { display: block; }

@@ -408,6 +408,19 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .bp-tekst { padding: .45rem .8rem; font-size: .95rem; }
 
 /* ==========================================================================
+   Mascotte: Dalton de bever (sinds 10-10-2026, _afspraken/vormgeving-en-techniek.md)
+   Versiering, dus alt="". Alleen op een lichte achtergrond; per scherm hoogstens één grote.
+   ========================================================================== */
+/* in de kop van de startpagina en van de laatste stap, rechts naast de titel; de voeten staan op de lijn */
+.card-head.met-mascotte { display: flex; align-items: flex-end; gap: 1rem; padding-bottom: 0; }
+.card-head.met-mascotte > div { flex: 1; min-width: 0; padding-bottom: 1.2rem; }
+.mascotte-kop { width: 120px; height: 120px; flex-shrink: 0; margin: -.8rem -.6rem -9px 0; }
+/* klein, in "Hulp nodig?", in plaats van het pictogram */
+.mascotte-ico { width: 28px; height: 28px; flex-shrink: 0; }
+/* de eindmelding (alles afgevinkt), in plaats van het vinkje */
+.klaar-card .mascotte-klaar { display: block; width: 150px; height: 150px; margin: -.8rem auto .3rem; }
+
+/* ==========================================================================
    Breedtes
    ========================================================================== */
 
@@ -437,6 +450,9 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
   .card-body { padding: 1.1rem 1.1rem 1.2rem; }
   .card-nav { padding: .8rem 1.1rem 1.1rem; }
   .card-head h1, .card-head h2 { font-size: 1.3rem; }
+  .card-head.met-mascotte { padding-bottom: 0; }
+  .card-head.met-mascotte > div { padding-bottom: 1rem; }
+  .mascotte-kop { width: 84px; height: 84px; margin: -.5rem -.3rem -6px 0; }
   .t-grid, .werkwijze { grid-template-columns: minmax(0, 1fr); }
   .nodig, .ccb { grid-template-columns: minmax(0, 1fr); }
   .nodig-item + .nodig-item::after { content: "↓"; left: 50%; top: -1.35rem; }

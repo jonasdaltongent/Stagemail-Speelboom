@@ -22,10 +22,10 @@
 W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
 ├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist
 ├── presentatie.html        8 dia's; dia 1 is de vaste startdia "Zo start je"
-├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan)
-├── css/slides.css          dia's (uit het sjabloon, met .startroute)
+├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan, de mascotte)
+├── css/slides.css          dia's (uit het sjabloon, met .startroute en .met-mascotte)
 ├── js/script.js, js/slides.js
-├── assets/                 logo's De Speelboom en GO! Dalton Gent, lettertypes (OFL)
+├── assets/                 logo's De Speelboom en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton
 ├── werkdocument/
 │   ├── Stagemail.docx              het werkdocument dat de leerling INLEVERT
 │   └── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
