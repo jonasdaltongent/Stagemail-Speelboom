@@ -136,3 +136,10 @@ body.show-notes .hud, body:fullscreen .hud { display: none; }
 /* kloktijden op Zo werk je verder (sinds 11-10-2026): js/slides.js rekent ze uit */
 .kloklijst .tijd { font-size: 26px; font-weight: 700; color: var(--navy); margin-left: .35em; white-space: nowrap; }
 .kloklijst li[data-samen] .tijd { color: var(--ok); }
+
+/* Logo's (sinds 11-10-2026, _afspraken/vormgeving-en-techniek.md) */
+.logo { width: 1em; height: 1em; flex-shrink: 0; vertical-align: -.12em; object-fit: contain; }
+.url-balk { display: inline-flex; align-items: center; gap: 8px; }
+.url-balk .logo, .bijl-chip .logo { width: 20px; height: 20px; }
+.met-logo { white-space: nowrap; }
+.met-logo .logo { margin-right: .25em; }

@@ -514,3 +514,17 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .tt-tab .f-cls { background: #1E8E3E; }
 .tt-tab .f-les { background: var(--navy); }
 .tt-tab .f-doc { background: #4285F4; }
+
+/* ==========================================================================
+   Logo's (sinds 11-10-2026, _afspraken/vormgeving-en-techniek.md): Classroom = de opdracht,
+   Google Documenten = het werkdocument, de bever in een navy rondje = de lespagina.
+   Gebruik: <img class="logo" src="assets/logos/…" alt=""> naast de tekst die het al zegt.
+   ========================================================================== */
+.logo { width: 1.15em; height: 1.15em; flex-shrink: 0; vertical-align: -.2em; object-fit: contain; }
+.mock .logo { width: .95rem; height: .95rem; }
+.mo-titel .logo { margin-right: .3rem; vertical-align: -.15rem; }
+.werk-tegel .logo { width: 1.6rem; height: 1.6rem; margin-bottom: .35rem; display: block; }
+.nodig-naam .logo { margin-right: .35rem; }
+.tt-tab .logo { width: 14px; height: 14px; }
+.met-logo { white-space: nowrap; }
+.met-logo .logo { margin-right: .25em; }
