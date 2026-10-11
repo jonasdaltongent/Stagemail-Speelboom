@@ -21,7 +21,7 @@
 ```text
 W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
 ├── index.html              de lespagina: startpagina in beelden · route · één stap · checklist
-├── presentatie.html        8 dia's; dia 1 is de vaste startdia "Zo start je"
+├── presentatie.html        10 dia's; dia 1 is de vaste startdia "Zo start je"; dia 7 controle, dia 8 samen stap 1
 ├── css/style.css           lespagina (uit het sjabloon, met .nodig, .vast, .mail, .ccb, .bouwplan, de mascotte)
 ├── css/slides.css          dia's (uit het sjabloon, met .startroute en .met-mascotte)
 ├── js/script.js, js/slides.js
@@ -55,6 +55,13 @@ W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
   (`_afspraken/ai-hulp.md`). Zonder notebook zet je hem op `"uit"`.
 - `?leraar` achter het adres toont de screenshot-plaatsen (deze les heeft er geen: de beelden zijn
   tekeningen).
+- **Stap voor stap / Kort** (proef, 11-10-2026, op vraag van Jonas: "Je mag het al aanpassen voor de les van
+  3MWb morgen, dan kan ik het al eens testen!"): elke handeling is één vette regel; open je ze, dan zie je
+  de kleine stapjes, elk met één beeld (`assets/stapjes/`). Bovenaan *Wat moet je doen?* zet de knop
+  *Stap voor stap* alles open en *Kort* alles dicht; een leerling kan ook één regel openen. De les begint in
+  *Stap voor stap* (`data-modus-start="stap"`); de keuze wordt per les onthouden. *Hulp nodig?* is weg: wat
+  erin stond, staat nu als grijze regel onder het stapje waar het misloopt, en het tipvak bevat de meest
+  waarschijnlijke fout. De hulpvolgorde is korter: *Toon stapjes* → je buur → AI-hulp → jij.
 
 ## 2. Klaarzetten
 
@@ -148,8 +155,10 @@ hun werkdocument.
 | Start | 0–2' | 1 | aanmelden met de vaste startdia, tot de lespagina open is |
 | Lesstart | 2–5' | 2 | waar bewaar je je stagewerk? (vingers, dan →) |
 | Ik doe | 5–10'30" | 3–6 | lesdoel · de zes delen · lezen hier, schrijven daar (twee tabbladen) · fout 1 van Kobe |
-| Keuzewerktijd | 10'30"–50' | 7 | stap 1–7, *Zo werk je verder* blijft staan |
-| Afsluiten | laatste minuut | 8 | de exitvraag; wie niet klaar is, levert toch in |
+| Controle | 1' | 7 | *Waar schrijf je je e-mail?* — iedereen antwoordt met vingers; wie fout heeft, komt bij jou |
+| Samen | 3' | 8 | iedereen doet stap 1 terwijl jij de schermen ziet; duim op als ze klaar zijn |
+| Keuzewerktijd | tot het einde | 9 | stap 2–7, *Zo werk je verder* blijft staan, met **kloktijden** die de dia zelf uitrekent (T rekent opnieuw) |
+| Afsluiten | laatste minuut | 10 | de exitvraag; wie niet klaar is, levert toch in |
 
 **Eerste rondgang:** heeft iedereen de lespagina én *Stagemail* open, in twee tabbladen? Dat is wat in les 2
 het meest vastliep. **Tweede rondgang** (stap 4–5): Aan en Cc juist overgetypt, *u* in plaats van *je*?
@@ -173,7 +182,11 @@ het meest vastliep. **Tweede rondgang** (stap 4–5): Aan en Cc juist overgetypt
 
 ## 5. Schermafbeeldingen
 
-Niet nodig: de beelden op de startpagina, in stap 2 en op de dia's zijn tekeningen in HTML en CSS.
+De beelden bij de stapjes (`assets/stapjes/`, 24 stuks) zijn uitsneden van *Test Stagemail (Claude)* in je
+demomap, opgenomen met Claude in Chrome (profiel Jonas, 11-10-2026, actie `zoom` op ware grootte), met één
+rood kader (#C5221F, witte rand erbuiten). De opdracht in Classroom en de tabbladen van Chrome zijn tekeningen
+in HTML en CSS (`.mock-opdracht`, `.teken-tabs`, het kader is `.wijs`), net als de beelden op de startpagina,
+in stap 2 en op de dia's.
 
 ## 6. Het materiaal opnieuw maken
 
@@ -187,6 +200,13 @@ cd "/Volumes/Littlecisboy/Google drive/Toegepaste Informatica/2026-2027/W07 - Le
 ondersteunend · `BV2_04.04` voorbereidend. De pre-push hook schrijft ze in `Leerplandoelen 2026-2027.xlsx`.
 
 ## 8. Wat nog moet blijken in de klas
+
+- **Stap voor stap / Kort** (eerste proef): kiezen leerlingen zelf *Kort*, of laten ze alles open? Klappen ze
+  in *Kort* een regel open als ze vastzitten? Wordt de pagina met alle beelden te lang?
+- Komen ze vlotter op gang na de controledia en *Iedereen doet stap 1*?
+- De bevestiging bij **Inleveren**: de help zegt "Klik op Inleveren en bevestig dit"; de naam van de knop in
+  dat venster is niet nagekeken (geen leerlingenaccount). Klopt *en bevestig* op hun scherm?
+- Aankruisen in deel 4 (vakje wissen met Backspace, x typen) werkt in de testkopie; lukt het ook zo bij hen?
 
 - Helpen de vaste startdia en de startpagina in beelden om zonder hulp tot bij de opdracht, de lespagina
   en het werkdocument te geraken?

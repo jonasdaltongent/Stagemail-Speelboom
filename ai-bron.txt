@@ -42,9 +42,7 @@ Na deze les kan je
 
 Vast? Probeer het in deze volgorde
 
-- Theoriekaart
-
-- Hulp nodig? onder de stap
+- Klik in de stap op Toon stapjes
 
 - Je buur
 
@@ -166,19 +164,34 @@ Je zet je werkdocument klaar. Daarin schrijf je vandaag alles.
 
 Wat moet je doen?
 
-- Klik in de opdracht rechts, onder Jouw werk, op je werkdocument Stagemail. Het heeft jouw naam in de titel.
+-
+Open je werkdocument Stagemail.
 
-- Vul bovenaan je naam, je klas en de datum in.
+-
+Kijk in je opdracht in Google Classroom rechts, bij Jouw werk.
 
-- Lees in je werkdocument het kader Je stage. Daar staan je mentor en haar adres.
+-
+Klik op Stagemail. Jouw naam staat in de titel.
 
-Twee tabbladen. Bovenaan in Chrome staan nu deze lespagina en je werkdocument. Klik op een tabblad om te wisselen.
+-
+Je werkdocument opent in een nieuw tabblad. Klik bovenaan op een tabblad om te wisselen.
 
-Hulp nodig?
+-
+Vul bovenaan je naam, je klas en de datum in.
 
-Vind je je werkdocument niet? Kijk in de opdracht rechts, bij Jouw werk. Het heet Stagemail, met jouw naam ervoor.
+-
+Klik naast Naam:. Typ je voornaam en achternaam.
 
-Is deze lespagina weg? Klik bovenaan op het andere tabblad.
+-
+Vul ook Klas: en Datum: in.
+
+-
+Lees het kader Je stage.
+
+-
+Scroll naar het kader Je stage. Lees wie je mentor is, en haar adres.
+
+Is de lespagina weg? Klik bovenaan in Chrome op het tabblad Lespagina · Les 3.
 
 Klaar als: je werkdocument open is, met je naam erin, en je het kader Je stage gelezen hebt.
 
@@ -207,23 +220,27 @@ Verzenden
 
 Wat moet je doen?
 
-- Lees de e-mail van Kobe. Er zijn vijf fouten.
+- Lees de e-mail van Kobe hierboven. Er zijn vijf fouten.
 
-- Ga naar deel 1 van je werkdocument. Fout 1 staat er al: je leraar deed ze voor.
+-
+Bekijk deel 1 van je werkdocument.
 
-- Schrijf nog twee fouten op. Schrijf er telkens bij hoe het beter kan.
+-
+Scroll in je werkdocument naar Deel 1. Fout 1 staat er al: je leraar deed ze voor.
 
-Hulp nodig? Waar moet je kijken?
+-
+Schrijf nog twee fouten op.
 
-- De eerste regel: hoe spreekt Kobe zijn mentor aan?
+-
+Klik in rij 2, onder Wat is er mis?. Schrijf een fout van Kobe.
 
-- Weet de mentor wie Kobe is: welke school, welke klas, wanneer zijn stage is?
+-
+Schrijf ernaast, onder Zo is het beter, hoe het beter kan.
 
-- De woorden en tekens: schrijf je zo aan iemand die je niet kent?
+-
+Doe hetzelfde in rij 3.
 
-- De laatste regel: hoe sluit Kobe af, en staat zijn naam er?
-
-Kijk ook op de theoriekaart, bij Veelgemaakte fouten.
+Vind je geen fout meer? Kijk naar de eerste en de laatste regel, en naar de woorden en tekens. Weet de mentor wie Kobe is?
 
 Klaar als: in deel 1 drie fouten staan, elk met hoe het beter kan.
 
@@ -244,17 +261,25 @@ Bcc Leest mee. Niemand ziet dit adres.
 
 Wat moet je doen?
 
-- Ga naar deel 2 van je werkdocument.
+-
+Schrijf bij elke situatie Aan, Cc of Bcc.
 
-- Schrijf bij elke situatie Aan, Cc of Bcc.
+-
+Scroll naar Deel 2. Lees situatie a.
 
-- Beantwoord vraag 1: waarom mogen de ouders elkaars adres niet zien?
+-
+Schrijf rechts Aan, Cc of Bcc. Doe hetzelfde voor situatie b. Moet die persoon iets doen? Dan is het Aan.
 
-Hulp nodig?
+-
+Situatie c staat bovenaan de volgende bladzijde.
 
-Vraag je bij elke persoon af: moet die iets doen? Dan is het Aan. Alleen meelezen? Dan is het Cc of Bcc.
+-
+Beantwoord vraag 1.
 
-Bij vraag 1: denk aan je beroepsgeheim uit les 2. Een e-mailadres van een ouder is ook iets wat je niet zomaar deelt.
+-
+Lees vraag 1. Schrijf je antwoord op de lijnen. Denk aan je beroepsgeheim uit les 2.
+
+Twijfel je tussen Cc en Bcc? Mag iedereen het adres zien? Dan is het Cc. Mag niemand het zien? Dan is het Bcc.
 
 Klaar als: bij de drie situaties Aan, Cc of Bcc staat, en vraag 1 beantwoord is.
 
@@ -269,25 +294,40 @@ Nu schrijf je je eigen e-mail aan je mentor, mevrouw Verhoeven. Je begint bovena
 
 Wat moet je doen?
 
-- Ga naar deel 3 van je werkdocument: het venster Nieuw bericht.
+-
+Ga naar deel 3: het venster Nieuw bericht.
 
-- Klik in het vak naast Aan. Typ het adres van je mentor. Het staat in het kader Je stage.
+-
+Scroll naar Deel 3. Daar staat een venster zoals in Gmail.
 
-- Typ naast Cc het adres van je stagebegeleider. Laat Bcc leeg.
+-
+Typ naast Aan het adres van je mentor.
 
-- Typ naast Onderwerp in een paar woorden waarover je e-mail gaat.
+-
+Zoek het adres van je mentor in het kader Je stage.
 
-- Schrijf naast aanspreking: Beste mevrouw Verhoeven,
+-
+Klik in het vak naast Aan. Typ het adres. Typ letter voor letter. Eén fout en je e-mail komt niet aan.
 
-Een goed onderwerp zegt wie je bent en waarover het gaat. Niet stage, wel zoiets als het voorbeeld in deel 1, met jouw naam.
+-
+Typ naast Cc het adres van je stagebegeleider. Laat Bcc leeg.
 
-Hulp nodig?
+-
+Klik in het vak naast Cc. Typ het adres van je stagebegeleider. Het adres staat ook in het kader Je stage. Je stagebegeleider leest mee, maar moet niets doen.
 
-Typ het adres letter voor letter over. Eén fout en je e-mail komt niet aan.
+-
+Typ naast Onderwerp waarover je e-mail gaat.
 
-Waarom Cc? Je stagebegeleider wil meelezen, maar moet niets doen. Kijk op de theoriekaart bij Aan, Cc of Bcc?
+-
+Klik in het vak naast Onderwerp. Typ in een paar woorden wie je bent en waarover je mailt.
 
-Waarom geen voornaam? Je kent je mentor nog niet. Daarom Beste mevrouw Verhoeven,, met een komma.
+-
+Schrijf de aanspreking.
+
+-
+Klik naast aanspreking. Typ: Beste mevrouw Verhoeven, Met een komma. Je kent je mentor nog niet: dus geen voornaam.
+
+Staat er alleen stage in je onderwerp? Zeg ook wie je bent. Kijk naar het voorbeeld in deel 1.
 
 Klaar als: Aan, Cc, Onderwerp en de aanspreking ingevuld zijn, en Bcc leeg is.
 
@@ -314,27 +354,34 @@ Je mentor wil drie dingen weten: wie je bent, waarom je mailt en wat je vraagt.
 
 Wat moet je doen?
 
-- Schrijf in het venster naast wie ben je? je naam, je klas en je school.
+-
+Schrijf wie je bent.
 
-- Schrijf naast waarom mail je? wanneer je stage begint, en dat je wil kennismaken.
+-
+Klik naast wie ben je?. Schrijf je naam, je klas en je school. Begin zo, en maak de zin af: Ik ben …. Ik zit in klas … van GO! Dalton Gent.
 
-- Schrijf naast je vraag een beleefde vraag: wanneer mag je eens langskomen?
+-
+Schrijf waarom je mailt.
 
-- Schrijf naast slotgroet Met vriendelijke groeten, en daaronder je voornaam en achternaam, je klas en je school.
+-
+Klik naast waarom mail je?. Schrijf wanneer je stage begint, en dat je wil kennismaken. Bijvoorbeeld: Van 16 november tot 4 december loop ik stage in De Speelboom. Ik wil graag eens kennismaken.
 
-Schrijf u en uw, niet je en jij. Je kent je mentor nog niet. Dus: Wanneer past het voor u?
+-
+Stel je vraag.
 
-Hulp nodig? Zinnen om mee te beginnen
+-
+Klik naast je vraag. Vraag beleefd wanneer je eens mag langskomen. Bijvoorbeeld: Mag ik eens langskomen? Wanneer past het voor u?
 
-- Ik ben …. Ik zit in klas … van GO! Dalton Gent.
+-
+Sluit af met een slotgroet en je naam.
 
-- Van 16 november tot 4 december loop ik stage in De Speelboom.
+-
+Klik naast slotgroet. Typ: Met vriendelijke groeten,
 
-- Ik wil graag eens kennismaken.
+-
+Typ daaronder je voornaam en achternaam, je klas en je school.
 
-- Mag ik eens langskomen? Wanneer past het voor u?
-
-Maak de zinnen af met je eigen woorden.
+Schreef je je of jij? Verander het in u of uw. Je kent je mentor nog niet.
 
 Klaar als: elk vak in het venster ingevuld is, met u en uw, en je naam onderaan staat.
 
@@ -351,17 +398,30 @@ Wat moet je doen?
 
 - Lees je e-mail zachtjes voor jezelf.
 
-- Kruis in deel 4 aan wat klopt. Verbeter wat nog niet klopt.
+-
+Kruis in deel 4 aan wat klopt.
+
+-
+Scroll naar Deel 4.
+
+-
+Klopt een zin? Klik net rechts van het vakje. Druk op Backspace en typ x.
+
+-
+Klopt iets nog niet? Verbeter eerst je e-mail.
 
 - Laat je buur je e-mail lezen op jouw scherm. Vraag: Is alles duidelijk? Wat kan beter?
 
-- Schrijf de tip van je buur in deel 4. Pas je e-mail aan.
+-
+Schrijf de tip van je buur op en pas je e-mail aan.
 
-Hulp nodig?
+-
+Schrijf de tip onder Je testlezer. Een goede tip zegt wat beter kan. Bijvoorbeeld: Je onderwerp zegt niet wie je bent.
+
+-
+Pas je e-mail aan. Schrijf onder Wat heb je daardoor aangepast? wat je veranderde.
 
 Is je buur nog niet klaar? Lees dan eerst de e-mail van je buur. Kijk naar het onderwerp, de aanspreking en de slotgroet.
-
-Een goede tip zegt wat beter kan: Je onderwerp zegt niet wie je bent. Niet alleen: Goed zo!
 
 Klaar als: alles in deel 4 aangekruist is en de tip van je buur erin staat.
 
@@ -396,9 +456,20 @@ Wat moet je doen?
 
 - Loop de checklist na. Staat er nog iets open? Werk het eerst af.
 
-- Beantwoord in deel 5 de slotvraag.
+-
+Beantwoord in deel 5 de slotvraag.
 
-- Klik in de opdracht op Inleveren.
+-
+Scroll naar Deel 5. Schrijf je antwoord op de lijnen.
+
+-
+Lever in.
+
+-
+Klik bovenaan op het tabblad Google Classroom.
+
+-
+Klik rechts, bij Jouw werk, op Inleveren en bevestig.
 
 Klaar als: er bij de opdracht Ingeleverd staat.
 

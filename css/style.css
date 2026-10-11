@@ -461,3 +461,56 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
   .bouwplan li { grid-template-columns: 7.5rem minmax(0, 1fr); }
   .brand-lesson, .dalton-mark { display: none; }
 }
+
+/* ===== Stap voor stap / Kort (11-10-2026, eerste proef in deze les) =====
+   Elke handeling is één regel; open je ze, dan zie je de kleine stapjes, elk met één beeld.
+   De knop Stap voor stap / Kort zet ze allemaal open of dicht; een leerling kan ook één regel openen. */
+.todo-box { container-type: inline-size; }
+.todo-head { display: flex; align-items: center; justify-content: space-between; gap: .6rem 1rem; flex-wrap: wrap; margin-bottom: .9rem; }
+.todo-head h3 { margin: 0; }
+.modus { display: inline-flex; background: var(--peri-soft); border-radius: 999px; padding: 3px; gap: 2px; }
+.modus-btn { font: inherit; font-size: .9rem; font-weight: 700; border: 0; background: transparent; color: var(--navy-deep); padding: .35rem .9rem; border-radius: 999px; cursor: pointer; min-height: 36px; }
+.modus-btn[aria-pressed="true"] { background: var(--navy); color: #fff; }
+.modus-btn:focus-visible { outline: 3px solid var(--navy-deep); outline-offset: 2px; }
+
+.doe { list-style: none; counter-reset: act; padding: 0; margin: 0; }
+.doe > li { counter-increment: act; position: relative; padding-left: 2.4rem; margin-bottom: .8rem; }
+.doe > li:last-child { margin-bottom: 0; }
+.doe > li::before {
+  content: counter(act); position: absolute; left: 0; top: .05rem;
+  width: 1.65rem; height: 1.65rem; border-radius: 50%;
+  background: var(--navy); color: #fff; font-weight: 700; font-size: .85rem;
+  display: flex; align-items: center; justify-content: center;
+}
+.doe-tekst { font-weight: 700; }
+.stapjes > summary { list-style: none; cursor: pointer; display: flex; align-items: flex-start; justify-content: space-between; gap: .75rem; border-radius: 6px; }
+.stapjes > summary::-webkit-details-marker { display: none; }
+.stapjes > summary:focus-visible { outline: 3px solid var(--navy-deep); outline-offset: 3px; }
+.stapjes-knop { flex-shrink: 0; font-size: .82rem; font-weight: 700; color: var(--navy); background: #fff; border: 1px solid var(--peri); border-radius: 999px; padding: .1rem .7rem; white-space: nowrap; margin-top: .1rem; }
+.stapjes-knop::before { content: "Toon stapjes \25BE"; }
+.stapjes[open] > summary .stapjes-knop::before { content: "Verberg \25B4"; }
+.stapjes > summary:hover .stapjes-knop { background: var(--peri-soft); }
+
+.klein { list-style: none; counter-reset: klein; margin: .55rem 0 .2rem; padding: 0; }
+.klein > li { counter-increment: klein; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: .6rem 1.1rem; align-items: start; padding: .7rem 0 .7rem 2.1rem; position: relative; border-top: 1px solid var(--line); }
+.klein > li::before {
+  content: counter(klein, lower-alpha); position: absolute; left: 0; top: .78rem;
+  width: 1.45rem; height: 1.45rem; border-radius: 50%;
+  background: var(--peri-soft); color: var(--navy-deep); font-weight: 700; font-size: .82rem;
+  display: flex; align-items: center; justify-content: center;
+}
+.klein p { margin: 0; }
+.klein .sub { display: block; color: var(--muted); font-size: .93rem; margin-top: .25rem; }
+.klein img.mini { width: auto; max-width: 100%; height: auto; border: 1px solid var(--line); border-radius: 8px; display: block; justify-self: start; }
+@container (max-width: 760px) { .klein > li { grid-template-columns: 1fr; gap: .5rem; } }
+
+/* tekeningen in een stapje: de opdracht in Classroom en de tabbladen van Chrome; .wijs = het rode kader */
+.klein .mini-mock { width: 100%; max-width: 360px; height: auto; justify-self: start; }
+.wijs { box-shadow: 0 0 0 2px #fff, 0 0 0 5px #C5221F; position: relative; z-index: 1; }
+.teken-tabs { display: flex; align-items: flex-end; gap: 4px; width: 100%; max-width: 440px; justify-self: start; background: #DEE3EA; border-radius: 8px 8px 0 0; padding: 8px 10px 0; font-family: "Segoe UI", Arial, sans-serif; font-size: 13px; }
+.tt-tab { flex: 1; min-width: 0; display: flex; align-items: center; gap: 6px; background: #EEF1F5; color: #3C4043; border-radius: 8px 8px 0 0; padding: 7px 10px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.tt-tab.actief { background: #fff; }
+.tt-tab i { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+.tt-tab .f-cls { background: #1E8E3E; }
+.tt-tab .f-les { background: var(--navy); }
+.tt-tab .f-doc { background: #4285F4; }

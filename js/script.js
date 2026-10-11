@@ -128,6 +128,24 @@
     showStep(t.getAttribute('data-goto'), true);
   });
 
+  /* ---------- 3b. Stap voor stap of Kort (11-10-2026) ----------
+   * Stap voor stap: elke handeling staat open, met haar kleine stapjes en een beeld.
+   * Kort: alleen de handelingen; een leerling klapt zelf open wat ze niet weet.
+   * De beginstand komt uit data-modus-start op body; de keuze wordt per les onthouden. */
+  var modusBtns = all('.modus-btn');
+  var stapjes = all('details.stapjes');
+  function zetModus(m, bewaar) {
+    if (m !== 'kort') m = 'stap';
+    body.classList.toggle('modus-kort', m === 'kort');
+    stapjes.forEach(function (d) { d.open = (m === 'stap'); });
+    modusBtns.forEach(function (b) { b.setAttribute('aria-pressed', b.getAttribute('data-modus') === m ? 'true' : 'false'); });
+    if (bewaar) store('modus', m);
+  }
+  modusBtns.forEach(function (b) {
+    b.addEventListener('click', function () { zetModus(b.getAttribute('data-modus'), true); });
+  });
+  zetModus(load('modus', body.getAttribute('data-modus-start') || 'stap'), false);
+
   /* ---------- 4. Vinkjes wissen ---------- */
   var reset = document.getElementById('btnReset');
   if (reset) {

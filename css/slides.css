@@ -132,3 +132,7 @@ body.show-notes .notes { display: block; }
 .hud { position: fixed; top: 10px; right: 14px; color: #fff; background: rgba(29,35,64,.75); padding: 3px 10px; border-radius: 99px; font-size: 14px; z-index: 6; }
 .hud kbd { background: #2A3973; border-radius: 4px; padding: 0 5px; color: #fff; }
 body.show-notes .hud, body:fullscreen .hud { display: none; }
+
+/* kloktijden op Zo werk je verder (sinds 11-10-2026): js/slides.js rekent ze uit */
+.kloklijst .tijd { font-size: 26px; font-weight: 700; color: var(--navy); margin-left: .35em; white-space: nowrap; }
+.kloklijst li[data-samen] .tijd { color: var(--ok); }
