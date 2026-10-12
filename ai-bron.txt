@@ -177,15 +177,6 @@ Klik op Stagemail. Jouw naam staat in de titel.
 Je werkdocument opent in een nieuw tabblad. Klik bovenaan op een tabblad om te wisselen.
 
 -
-Vul bovenaan je naam, je klas en de datum in.
-
--
-Klik naast Naam:. Typ je voornaam en achternaam.
-
--
-Vul ook Klas: en Datum: in.
-
--
 Lees het kader Je stage.
 
 -
@@ -267,13 +258,13 @@ Scroll naar Deel 2. Lees situatie a.
 Schrijf rechts Aan, Cc of Bcc. Doe hetzelfde voor situatie b. Moet die persoon iets doen? Dan is het Aan.
 
 -
-Situatie c staat bovenaan de volgende bladzijde.
+Doe hetzelfde voor situatie c.
 
 -
 Beantwoord vraag 1.
 
 -
-Lees vraag 1. Schrijf je antwoord op de lijnen. Denk aan je beroepsgeheim uit les 2.
+Lees vraag 1. Klik in het vak eronder en typ je antwoord. Denk aan je beroepsgeheim uit les 2.
 
 Twijfel je tussen Cc en Bcc? Mag iedereen het adres zien? Dan is het Cc. Mag niemand het zien? Dan is het Bcc.
 
@@ -395,7 +386,7 @@ Kruis in deel 4 aan wat klopt.
 Scroll naar Deel 4.
 
 -
-Klopt een zin? Klik net rechts van het vakje. Druk op Backspace en typ x.
+Klopt een zin? Klik in het vak ervoor en typ x.
 
 -
 Klopt iets nog niet? Verbeter eerst je e-mail.
@@ -448,7 +439,7 @@ Wat moet je doen?
 Beantwoord in deel 5 de slotvraag.
 
 -
-Scroll naar Deel 5. Schrijf je antwoord op de lijnen.
+Scroll naar Deel 5. Klik in het vak en typ je antwoord.
 
 -
 Lever in.
@@ -498,7 +489,6 @@ CHECKLIST (rechts op de lespagina)
 1 · Klaarzetten
 
 [ ] Werkdocument open, met mijn naam in de titel
-[ ] Naam, klas en datum ingevuld
 
 2 · Wat is er mis?
 

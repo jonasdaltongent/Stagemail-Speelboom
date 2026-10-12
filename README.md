@@ -28,7 +28,9 @@ W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
 ├── assets/                 logo's De Speelboom en GO! Dalton Gent, lettertypes (OFL), mascotte Dalton
 ├── werkdocument/
 │   ├── Stagemail.docx              het werkdocument dat de leerling INLEVERT
-│   └── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
+│   ├── maak_werkdocumenten.py      maakt het opnieuw (python-docx)
+│   ├── huisstijl.py, go-dalton-gent.png   de huisstijl van elk werkdocument (uit _sjablonen/lespakket/werkdocument/)
+│   └── maak_stapjes.py             maakt de beelden bij de stapjes opnieuw, uit de pdf van Google Documenten
 ├── lesvoorbereiding.md     de lesvoorbereiding (28 punten)
 ├── dalton-lesfiche.html    de Dalton-lesfiche in de kleurcode: openen, Kopieer de fiche, plakken
 ├── lesdoelen.json          de doelen voor je jaaroverzicht
@@ -47,7 +49,7 @@ W07 - Les 03 - MW - Professionele e-mail aan een stageplaats/
 
 - **Startpagina** (nieuw, 09-10-2026): *Wat heb je nodig?* in drie beelden (de opdracht, de lespagina, het
   werkdocument), *Na deze les kan je*, en *Vast?* als genummerde rij.
-- **Route** links, **één stap** in het midden, **checklist** rechts (20 taken). Op een smal scherm staat
+- **Route** links, **één stap** in het midden, **checklist** rechts (19 taken). Op een smal scherm staat
   alles onder elkaar.
 - De **titel van de pagina** begint met *Lespagina · Les 3*: zo heet de link in de opdracht en het tabblad
   in Chrome, naast het tabblad *Stagemail*.
@@ -182,9 +184,10 @@ het meest vastliep. **Tweede rondgang** (stap 4–5): Aan en Cc juist overgetypt
 
 ## 5. Schermafbeeldingen
 
-De beelden bij de stapjes (`assets/stapjes/`, 24 stuks) zijn uitsneden van *Test Stagemail (Claude)* in je
-demomap, opgenomen met Claude in Chrome (profiel Jonas, 11-10-2026, actie `zoom` op ware grootte), met één
-rood kader (#C5221F, witte rand erbuiten). De opdracht in Classroom en de tabbladen van Chrome zijn tekeningen
+De beelden bij de stapjes (`assets/stapjes/`, 22 stuks) zijn uitsneden van het werkdocument zoals Google
+Documenten het toont, op ware grootte, met één rood kader (#C5221F, witte rand erbuiten). Sinds de nieuwe
+huisstijl (12-10-2026) maakt `werkdocument/maak_stapjes.py` ze uit de pdf die Google Documenten van
+*Stagemail* maakt (uitleg bovenaan het script); daarvoor waren het schermafbeeldingen uit Chrome (11-10-2026). De opdracht in Classroom en de tabbladen van Chrome zijn tekeningen
 in HTML en CSS (`.mock-opdracht`, `.teken-tabs`, het kader is `.wijs`), net als de beelden op de startpagina,
 in stap 2 en op de dia's.
 
@@ -206,7 +209,8 @@ ondersteunend · `BV2_04.04` voorbereidend. De pre-push hook schrijft ze in `Lee
 - Komen ze vlotter op gang na de controledia en *Iedereen doet stap 1*?
 - De bevestiging bij **Inleveren**: de help zegt "Klik op Inleveren en bevestig dit"; de naam van de knop in
   dat venster is niet nagekeken (geen leerlingenaccount). Klopt *en bevestig* op hun scherm?
-- Aankruisen in deel 4 (vakje wissen met Backspace, x typen) werkt in de testkopie; lukt het ook zo bij hen?
+- Het nieuwe werkdocument (12-10-2026): typen ze vlot in de lichtblauwe vakken, en zetten ze in deel 4 een x
+  in het vak? Lezen ze de punten bij deel 4 als *wat telt*, of schrikken ze ervan?
 
 - Helpen de vaste startdia en de startpagina in beelden om zonder hulp tot bij de opdracht, de lespagina
   en het werkdocument te geraken?

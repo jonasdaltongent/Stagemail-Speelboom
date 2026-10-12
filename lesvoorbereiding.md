@@ -113,11 +113,12 @@ Bijlagen: de lespagina (link) en *Stagemail* (een kopie voor elke leerling). Gee
 
 ## 14. Het werkdocument
 
-`werkdocument/Stagemail.docx` (gemaakt met `maak_werkdocumenten.py`): kopregel · *Zo werk je* · kader *Je
-stage* (mentor, stagebegeleider, adressen) · **deel 1** tabel *Wat is er mis?* (rij 1 ingevuld = de demo)
-· **deel 2** Aan/Cc/Bcc bij drie situaties + vraag 1 (waarom Bcc) · **deel 3** het venster *Nieuw bericht*
-(Aan, Cc, Bcc, Onderwerp, zes vakken met een grijs label, een blauwe knop *Verzenden* met "niet echt") ·
-**deel 4** checklist van acht punten + de tip van de testlezer · **deel 5** slotvraag.
+`werkdocument/Stagemail.docx` (gemaakt met `maak_werkdocumenten.py`, huisstijl van 12-10-2026): logo,
+titel en puntenvak (/20) · kader *Je stage* (mentor, stagebegeleider, adressen) · **deel 1** tabel *Wat is
+er mis?* (rij 1 ingevuld = de demo) · **deel 2** Aan/Cc/Bcc bij drie situaties + vraag 1 (waarom Bcc) ·
+**deel 3** het venster *Nieuw bericht* (Aan, Cc, Bcc, Onderwerp, zes vakken met een grijs label), op een eigen
+bladzijde · **deel 4** *Nalezen*: de criteria van § 22 als tabel (de leerling typt een x, de leraar zet de
+punten) + de tip van de testlezer · **deel 5** slotvraag. Overal typt de leerling in een lichtblauw vak.
 
 **Verwachte antwoorden**
 
