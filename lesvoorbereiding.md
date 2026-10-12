@@ -9,6 +9,7 @@ lesdag: "maandag 12 oktober 2026, 9de lesuur (rooster van 25-09-2026)"
 leerplan: "Leerplannen/Leerplannen_2de_graad_TOINFO_MW_dubbele_finaliteit.md"
 jaarplan: "Leerplannen/Lessenplan_TOINFO_MW_dubbele_finaliteit_30u.md — module 1, les 3"
 vakinhoud: "_vakinhoud/digitale-communicatie.md"
+register: "_bronnen/register/A-communicatie.md § A1, § A2 · didactiek.md § D7"
 opgesteld_volgens: "_afspraken/ (werkruimte Toegepaste Informatica)"
 ---
 
@@ -216,3 +217,19 @@ checklist met 20 taken.
 Route met onthouden stap; checklist met voortgang en groene vinkjes; zelftest (3 vragen) en E-mailquiz (4
 vragen) met directe feedback; `?leraar`; `data-ai-hulp="aan"` toont de AI-hulp. `localStorage` alleen voor
 vinkjes en de stap (`speelboom_stagemail_v1_`).
+
+## Bronnenonderzoek
+
+Achteraf gedaan op 12-10-2026: de les bestond al vóór de afspraak over bronnenonderzoek (11-10-2026). Alle
+bronnen uit register A1, A2 en D7 gelezen op de genoemde plaats; Team Taaladvies opnieuw online gelezen.
+Alleen verwijzingen en eigen woorden.
+
+| Bron | Wat de les eruit gebruikt | Bewust niet |
+|---|---|---|
+| **Lift 3A Thema 4**, Level 3 | p. 63: de delen van een zakelijke e-mail en Aan (actie), Cc (ter informatie), Bcc (adres verborgen) · p. 78: de don'ts (leeg onderwerp, emoji's, te veel uitroeptekens) = de fouten van Kobe; **een e-mail begint niet met *ik*** → stap 5 begint met *Mijn naam is …* (Jonas, 12-10-2026) · p. 92: Bcc bij een groep, wegens de privacywet | de NBN-briefnorm en de oefeningen zelf (uitgeverij: inspiratie) · de *slotzin* (p. 63) als apart deel: niet toegevoegd |
+| Team Taaladvies | *Slotgroet en ondertekening* (12-10-2026): *Met vriendelijke groeten* en *Met vriendelijke groet* zijn allebei goed · *Aanspreking en slotformule (komma)* (12-10-2026): de NBN-norm raadt geen komma aan, maar een komma mag en is gebruikelijk; de les houdt de komma (Jonas, 12-10-2026), met een link op de theoriekaart | — |
+| GBA Stappenplan | p. 8: een adres is een persoonsgegeven (vraag 1 van deel 2) | — |
+| TC KS4 World of work | L3 act. 1 (emoji's): toon tegenover vrienden en collega's, bevestigt fout 4 van Kobe | de werkvormen (Engels, te lang voor 50 minuten) |
+| Hello World 29 p. 60 | — | kanaalkeuze: past bij MW les 4 |
+| Wijze lessen (D7) | de buur als testlezer met een concrete tip (r. 2772) | — |
+
