@@ -528,3 +528,30 @@ body:not([data-ai-hulp="aan"]) .ai-hulp { display: none !important; }
 .tt-tab .logo { width: 14px; height: 14px; }
 .met-logo { white-space: nowrap; }
 .met-logo .logo { margin-right: .25em; }
+
+/* ==========================================================================
+   Laag scherm (sinds 12-10-2026): leerlingen hebben 1280 x 800, in Chrome blijft ± 650 px hoogte
+   over. "Wat moet je doen?" moet zonder scrollen in beeld komen: kop en ruimtes worden compacter.
+   ========================================================================== */
+@media (max-height: 820px) and (min-width: 900px) {
+  .topbar-inner { padding: .35rem 1.2rem; }
+  .brand img { height: 30px; }
+  .layout { padding-top: .7rem; }
+  .card-head { padding: .85rem 1.8rem .75rem; }
+  .tags { margin-bottom: .4rem; }
+  .card-head h1, .card-head h2 { font-size: 1.4rem; }
+  .card-body { padding-top: 1rem; }
+  .intro { margin-bottom: .8rem; }
+  .nameplate { margin-bottom: .8rem; }
+}
+
+/* Laag scherm: de voorbeeldmail en het bouwplan nemen minder plaats in (sinds 12-10-2026) */
+@media (max-height: 820px) and (min-width: 900px) {
+  .mail { font-size: .88rem; margin-bottom: .8rem; }
+  .mail-kop { padding: .3rem .8rem; }
+  .mail-veld { padding: .25rem .8rem; }
+  .mail-tekst { padding: .5rem .8rem .1rem; }
+  .mail-tekst p { margin-bottom: .45rem; }
+  .mail-voet { padding: .1rem .8rem .5rem; }
+  .bouwplan { margin-bottom: .8rem; font-size: .9rem; }
+}
