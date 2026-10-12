@@ -32,41 +32,6 @@ MENTOR = ("mevrouw Lien Verhoeven", "lien.verhoeven@despeelboom.example")
 BEGELEIDER = ("mevrouw Ilse Wouters", "ilse.wouters@school.example")
 
 
-HOOGTES = [1.0, 1.8, 2.2, 2.2, 1.2, 1.8]   # in cm, per vak van het bericht: genoeg plaats, niet meer
-
-
-def venster(doc, delen):
-    """Een venster dat eruitziet als 'Nieuw bericht' in Gmail.
-    delen: de grijze labels links van de vakken in het bericht."""
-    t = doc.add_table(rows=1 + 4 + len(delen), cols=2)
-    t.alignment = WD_TABLE_ALIGNMENT.CENTER
-    randen(t, buiten="9AA0A6")
-    breedtes(t, [3.2, BREEDTE - 3.2])
-
-    kopcel = t.rows[0].cells[0].merge(t.rows[0].cells[1])
-    schaduw(kopcel, "F2F6FC")
-    celtekst(kopcel, "Nieuw bericht", vet=True, kleur=RGBColor(0x20, 0x21, 0x24))
-    hoogte(t.rows[0], 0.8)
-    kopcel.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
-
-    for i, veld in enumerate(["Aan", "Cc", "Bcc", "Onderwerp"], start=1):
-        links, rechts = t.rows[i].cells
-        celtekst(links, veld, kleur=GRIJS)
-        vak(rechts)
-        for c in (links, rechts):
-            c.vertical_alignment = WD_CELL_VERTICAL_ALIGNMENT.CENTER
-            cel_randen(c, "DADCE0", dikte=6, kanten=("bottom",))
-        hoogte(t.rows[i], 0.85)
-
-    for j, label in enumerate(delen):
-        rij = t.rows[5 + j]
-        celtekst(rij.cells[0], label, kleur=GRIJS, grootte=10)
-        vak(rij.cells[1])
-        hoogte(rij, HOOGTES[j])
-    niet_splitsen(t)
-    return t
-
-
 def stagemail():
     doc = nieuw_document()
     kopblok(doc, "STAGEMAIL", punten=20)
@@ -101,8 +66,8 @@ def stagemail():
 
     # ---- Deel 3 (een eigen bladzijde: het venster breekt niet)
     deel(doc, 3, "Mijn e-mail aan mijn mentor", nieuwe_pagina=True)
-    venster(doc, ["aanspreking", "wie ben je?", "waarom mail je?", "je vraag", "slotgroet",
-                  "je naam, klas en school"])
+    mailvenster(doc, [("aanspreking", 1.0), ("wie ben je?", 1.8), ("waarom mail je?", 2.2), ("je vraag", 2.2),
+                      ("slotgroet", 1.2), ("je naam, klas en school", 1.8)])
 
     # ---- Deel 4: nalezen = de criteria van de beoordeling (lesvoorbereiding § 22)
     deel(doc, 4, "Nalezen", nieuwe_pagina=True)
